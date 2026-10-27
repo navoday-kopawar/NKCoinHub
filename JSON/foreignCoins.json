@@ -1,0 +1,1316 @@
+{
+  "category": "Foreign Coins",
+  "items": [
+    {
+      "id": "FC-austria-001",
+      "title": "1 Euro Cent, Portugal",
+      "itemType": "coin",
+      "country": "Portugal",
+      "currency": "Euro (€)",
+      "denomination": "1 Euro Cent",
+      "year": 2010,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-austria-001_obv_1.png",
+          "design": "The national side features the Castel del Monte, a 13th-century citadel in Puglia, Italy. (Text: None on this side beyond the date and mint mark)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-austria-001_rev_1.png",
+          "design": "A globe showing Europe in relation to Africa and Asia, with the denomination numeral 1 and the words EURO CENT. (Text: EURO CENT)"
+        }
+      }
+    },
+    {
+      "id": "FC-bahrain-001",
+      "title": "100 Fils (1992)",
+      "itemType": "coin",
+      "country": "Bahrain",
+      "currency": "Bahraini Dinar (.د.ب)",
+      "denomination": "100 Fils",
+      "year": 1992,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-bahrain-001_obv_1.png",
+          "design": "Features the national Coat of Arms of Bahrain in the center of a bimetallic disc. The outer brass ring contains the text (STATE OF BAHRAIN) in English and the years 1412 and 1992."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-bahrain-001_rev_1.png",
+          "design": "Displays the numeral (100) and the word (Fils) inside a central rectangle, flanked by stylized palm branch motifs."
+        }
+      }
+    },
+    {
+      "id": "FC-bahrain-002",
+      "title": "50 Fils (1965)",
+      "itemType": "coin",
+      "country": "Bahrain",
+      "currency": "Bahraini Dinar (.د.ب)",
+      "denomination": "50 Fils",
+      "year": 1965,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-bahrain-002_obv_2.png",
+          "design": "Shows the denomination (50) and (Fils) in the center of the coin, with the country name (BAHRAIN) written in English at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-bahrain-002_rev_2.png",
+          "design": "Features a centered, stylized palm tree symbolizing Bahraini heritage, with the Hijri and Gregorian years of mintage on either side."
+        }
+      }
+    },
+    {
+      "id": "FC-canada-001",
+      "title": "5 Cents, Canada",
+      "itemType": "coin",
+      "country": "Canada",
+      "currency": "Canadian Dollar ($)",
+      "denomination": "5 Cents",
+      "year": 2008,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-canada-001_obv_1.png",
+          "design": "Features the right-facing portrait of Queen Elizabeth II at age 77. Below the bust is the Royal Canadian Mint (RCM) logo. (ELIZABETH II D • G • REGINA)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-canada-001_rev_1.png",
+          "design": "Features a North American beaver resting on a log in water. Two maple leaves flank the central image. (5 CENTS, CANADA, 2008)."
+        }
+      }
+    },
+    {
+      "id": "FC-china-001",
+      "title": "1 Yuan (¥1)",
+      "itemType": "coin",
+      "country": "China",
+      "currency": "Chinese Yuan (¥)",
+      "denomination": "1 Yuan",
+      "year": 2010,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-china-001_obv_1.png",
+          "design": "Features the large numeral (1) in the center, with (YI YUAN) (One Yuan) in Pinyin to the left and (元) (Yuan) in Chinese to the right. The year of issue, (2010,) is at the bottom, and the name of the bank (中国人民银行) (People’s Bank of China) is at the top."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-china-001_rev_1.png",
+          "design": "Features a large chrysanthemum blossom in the center. The name of the issuing bank, (ZHONGGUO RENMIN YINHANG) (People's Bank of China), is written in Pinyin along the top edge."
+        }
+      }
+    },
+    {
+      "id": "FC-france-001",
+      "title": "50 Francs, France",
+      "itemType": "coin",
+      "country": "France",
+      "currency": "French Franc (₣)",
+      "denomination": "50 Francs",
+      "year": 1951,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-france-001_obv_1.png",
+          "design": "A female head (Marianne) facing left, wearing a Phrygian cap crowned with an olive branch. The text reads REPUBLIQUE FRANÇAISE (French Republic) and G·GUIRAUD (the engraver's name)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-france-001_rev_1.png",
+          "design": "A rooster standing facing right above an olive branch. The text includes the face value 50 FRANCS, the year 1951, and the French motto LIBERTE EGALITE FRATERNITE."
+        }
+      }
+    },
+    {
+      "id": "FC-germany-001",
+      "title": "German 20 Euro Cent (2020)",
+      "itemType": "coin",
+      "country": "Germany",
+      "currency": "Euro (€)",
+      "denomination": "20 Euro Cent",
+      "year": 2020,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-germany-001_obv_1.png",
+          "design": "The Brandenburg Gate, a symbol of German division and reunification, surrounded by the 12 stars of Europe."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-germany-001_rev_1.png",
+          "design": "A map of Europe alongside the face value, symbolizing the gathering of nations in the European Union."
+        }
+      }
+    },
+    {
+      "id": "FC-hongkong-001",
+      "title": "5 Dollars, Hong Kong",
+      "itemType": "coin",
+      "country": "Hong Kong",
+      "currency": "Hong Kong Dollar (HK$)",
+      "denomination": "5 Dollars",
+      "year": 1993,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-hongkong-001_obv_1.png",
+          "design": "Features a Bauhinia (Hong Kong orchid) flower in the center with the name of the territory in both Chinese and English (HONG KONG)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-hongkong-001_rev_1.png",
+          "design": "Displays a large numeral (5) in the center, the year (1993) below it, and the denomination in both Chinese (伍圓) and English (FIVE DOLLARS)."
+        }
+      }
+    },
+    {
+      "id": "FC-hongkong-002",
+      "title": "10 Dollars, Hong Kong",
+      "itemType": "coin",
+      "country": "Hong Kong",
+      "currency": "Hong Kong Dollar (HK$)",
+      "denomination": "10 Dollars",
+      "year": 1994,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-hongkong-002_obv_2.png",
+          "design": "A bimetallic design featuring a Bauhinia flower in the center with the territory's name in Chinese and English (HONG KONG)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-hongkong-002_rev_2.png",
+          "design": "Features a large numeral (10) in the center, the year (1994) below it, and the denomination in Chinese and English (TEN DOLLARS)."
+        }
+      }
+    },
+
+ {
+      "id": "FC-indonesia-001",
+      "title": "Indonesian 1 Rupiah",
+      "itemType": "coin",
+      "country": "Indonesia",
+      "currency": "Indonesian Rupiah",
+      "denomination": "1",
+      "year":1997 ,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-001_obv_1.png",
+          "design": ""
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-001_rev_1.png",
+          "design": ""
+        }
+      }
+    },
+ {
+      "id": "FC-indonesia-002",
+      "title": "Indonesian 200 Rupiah",
+      "itemType": "coin",
+      "country": "Indonesia",
+      "currency": "Rupiah",
+      "denomination": "200",
+      "year":2016 ,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-002-obv_2.png",
+          "design": ""
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-002_rev_2.png",
+          "design": ""
+        }
+      }
+    }, {
+      "id": "FC-indonesia-003",
+      "title": "Indonesian 500 Rupiah",
+      "itemType": "coin",
+      "country": "Indonesia",
+      "currency": "Indonesian Rupiah",
+      "denomination": "500",
+      "year":1997 ,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-003_obv_3.png",
+          "design": ""
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-indonesia-003_rev_3.png",
+          "design": ""
+        }
+      }
+    },
+    {
+      "id": "FC-italy-001",
+      "title": "Italian 20 Euro Cent (2002)",
+      "itemType": "coin",
+      "country": "Italy",
+      "currency": "Euro (€)",
+      "denomination": "20 Euro Cent",
+      "year": 2002,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-italy-001_obv_1.png",
+          "design": "The sculpture (Unique Forms of Continuity in Space) by Futurist artist Umberto Boccioni. (Lettering: RI 2002)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-italy-001_rev_1.png",
+          "design": "A map of Europe with six vertical lines and twelve stars, representing European unity."
+        }
+      }
+    },
+    {
+      "id": "FC-japan-001",
+      "title": "500 Yen, Japan",
+      "itemType": "coin",
+      "country": "Japan",
+      "currency": "Japanese Yen (¥)",
+      "denomination": "500 Yen",
+      "year": 2017,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-japan-001_obv_1.png",
+          "design": "The central design features a Paulownia plant. It includes the text (State of Japan) and (500 yen) in Japanese characters."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-japan-001_rev_1.png",
+          "design": "The center displays a large numerical value (500) flanked by Tachibana oranges with bamboo at the top. The bottom features the date (Year 29 of Heisei), which corresponds to 2017."
+        }
+      }
+    },
+    {
+      "id": "FC-japan-002",
+      "title": "100 Yen, Japan",
+      "itemType": "coin",
+      "country": "Japan",
+      "currency": "Japanese Yen (¥)",
+      "denomination": "100 Yen",
+      "year": 2021,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-japan-002_obv_2.png",
+          "design": "The design depicts Sakura (cherry) blossoms, which have been the standard motif for the 100 yen coin since 1967."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-japan-002_rev_2.png",
+          "design": "A large numerical value (100) is shown in the center. The bottom indicates the date (Year 3 of Reiwa), which corresponds to 2021."
+        }
+      }
+    },
+    {
+      "id": "FC-kingdomoftravancore-001",
+      "title": "2 Cash (Kasu)",
+      "itemType": "coin",
+      "country": "Kingdom of Travancore",
+      "currency": "Travancore Rupee (Re)",
+      "denomination": "2 Cash (Kasu)",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-kingdomoftravancore-001_obv_1.png",
+          "design": "A stylized figure of Sri Krishna standing and holding balls of butter."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-kingdomoftravancore-001_rev_1.png",
+          "design": "The numeral (2) in the center, surrounded by decorative patterns."
+        }
+      }
+    },
+    {
+      "id": "FC-malaysia-001",
+      "title": "50 Sen, Malaysia",
+      "itemType": "coin",
+      "country": "Malaysia",
+      "currency": "Malaysian Ringgit (RM)",
+      "denomination": "50 Sen",
+      "year": 1991,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-001_obv_1.png",
+          "design": "Features a hibiscus (Bunga Raya), the national flower of Malaysia, at the top center. The text includes (BANK NEGARA MALAYSIA), (50), (1991), and (SEN)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-001_rev_1.png",
+          "design": "Displays a Wau Bulan (moon kite) which is a traditional floral-designed kite."
+        }
+      }
+    },
+    {
+      "id": "FC-malaysia-002",
+      "title": "20 Sen, Malaysia",
+      "itemType": "coin",
+      "country": "Malaysia",
+      "currency": "Malaysian Ringgit (RM)",
+      "denomination": "20 Sen",
+      "year": 1997,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-002_obv_2.png",
+          "design": "Features a hibiscus flower at the top center. The text includes (BANK NEGARA MALAYSIA), (20), (1997), and (SEN)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-002_rev_2.png",
+          "design": "Displays a Tepak Sirih, a traditional betel leaf container used in Malay culture."
+        }
+      }
+    },
+    {
+      "id": "FC-malaysia-003",
+      "title": "10 Sen, Malaysia",
+      "itemType": "coin",
+      "country": "Malaysia",
+      "currency": "Malaysian Ringgit (RM)",
+      "denomination": "10 Sen",
+      "year": 2010,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-003_obv_3.png",
+          "design": "Features a hibiscus flower at the top center. The text includes (BANK NEGARA MALAYSIA), (10), (2010), and (SEN)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-003_rev_3.png",
+          "design": "Displays a Congkak board, which is a traditional Malay game played with shells or marbles."
+        }
+      }
+    },
+    {
+      "id": "FC-malaysia-004",
+      "title": "5 Sen, Malaysia",
+      "itemType": "coin",
+      "country": "Malaysia",
+      "currency": "Malaysian Ringgit (RM)",
+      "denomination": "5 Sen",
+      "year": 2011,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-004_obv_4.png",
+          "design": "Features a hibiscus flower at the top center. The text includes (BANK NEGARA MALAYSIA), (5), (2011), and (SEN)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-malaysia-004_rev_4.png",
+          "design": "Displays a Gasing (spinning top), a traditional Malay game piece."
+        }
+      }
+    },
+    {
+      "id": "FC-maldives-001",
+      "title": "1 Rufiyaa (Republic of Maldives)",
+      "itemType": "coin",
+      "country": "Maldives",
+      "currency": "Maldivian Rufiyaa (ރ)",
+      "denomination": "1 Rufiyaa",
+      "year": 2012,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-maldives-001_obv_1.png",
+          "design": "The side shown on the right features the national emblem of the Maldives (a coconut palm, a crescent moon, a star, and two national flags). The year (2012) is inscribed in the upper left, with its Islamic calendar equivalent (1433) in the upper right."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-maldives-001_rev_1.png",
+          "design": "The side shown on the left displays the large numeral (1) in the center, with the country name (REPUBLIC OF MALDIVES) arching across the top. Below the number is the denomination in both Dhivehi script and English (RUFIYAA), positioned above an illustration of two ropes tied into a reef knot."
+        }
+      }
+    },
+    {
+      "id": "FC-nepal-001",
+      "title": "1 Rupee, Nepal",
+      "itemType": "coin",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "1 Rupee",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-001_obv_1.png",
+          "design": "A map of Nepal featuring a mountain range (likely Mount Everest) in the background. The text includes the country name (Nepal) and the denomination (1 Rupee)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-001_rev_1.png",
+          "design": "Typically features a national symbol such as the Trident (Trishul) or a portrait of the King (if from the Monarchy era), surrounded by decorative floral patterns and the date in the Bikram Sambat calendar."
+        }
+      }
+    },
+    {
+      "id": "FC-nepal-002",
+      "title": "2 Rupee, Nepal",
+      "itemType": "coin",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "2 Rupees (२ रूपैयाँ)",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-002_obv_2.png",
+          "design": "The obverse design of the coin features a central circle containing a Trident (Trishula), a major symbol of Hinduism, which is enclosed within a square frame inscribed with the King's name in Devanagari script, Shree Gyanendra Bir Bikram Shah Dev. Surrounding this central square are various Hinduism icons, including a crescent moon and sun at the top, a conch shell to the right, and other sacred motifs, while the bottom of the coin displays the Devanagari numerals (२० ६०) representing the year 2060 in the Vikram Samvat calendar."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-002_rev_2.png",
+          "design": "Features the Janaki Mandir, a famous Hindu temple in Janakpur dedicated to the Goddess Sita 2 Rupees (२ रूपैयाँ)."
+        }
+      }
+    },
+    {
+      "id": "FC-nepal-003",
+      "title": "2 Rupees, Nepal",
+      "itemType": "coin",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "2 Rupees",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-003_obv_3.png",
+          "design": "The obverse of the coin features a striking depiction of Mount Everest, accompanied by the inscription (Sagarmatha,) which is the mountain's official name in Nepal. This side utilizes the Devanagari script for its lettering, displaying (सगरमाथा) along with the date (2066,) which follows the Vikram Samvat calendar."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-003_rev_3.png",
+          "design": "On the reverse, the design showcases a traditional rural scene of a farmer ploughing a field with water buffaloes. This side incorporates both Devanagari and Latin scripts to identify the issuing country as (नेपाल NEPAL.) It also clearly states the coin's denomination as (2 Rupee) (२ रुपैयाँ)."
+        }
+      }
+    },
+    {
+      "id": "FC-nepal-004",
+      "title": "1 Rupee, Nepal",
+      "itemType": "coin",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "1 Rupee",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-004_obv_4.png",
+          "design": "The obverse of the 1 Rupee coin features a majestic depiction of Mount Everest in the center, highlighting Nepal's natural heritage. Above the mountain, the word (Nepal) is written in Devanagari script (नेपाल), while below the peak, the name (Sagarmatha)—the Nepali name for Mount Everest—is inscribed in Latin letters. Further below, (Nepal) is written in English, and the bottom of the coin displays the year 1077 in the Nepali Vikram Samvat calendar."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-nepal-004_rev_4.png",
+          "design": "The reverse of the coin showcases a detailed outline of the map of Nepal in the middle, which is divided into its constituent states. In the background of the map, mountains are visible, and to the right, there is a distinct dot representing the number 1 in braille, enhancing accessibility. The top of the reverse bears the English value (Rs. One,) while the bottom features the value (१ रुपैया) (1 Rupee) in Devanagari script."
+        }
+      }
+    },
+    {
+      "id": "FC-netherlands-001",
+      "title": "Netherlands 10 Cents",
+      "itemType": "coin",
+      "country": "Netherlands",
+      "currency": "Dutch Guilder (ƒ)",
+      "denomination": "10 Cents",
+      "year": 1974,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-netherlands-001_obv_1.png",
+          "design": "Features a portrait of Queen Juliana facing right. The surrounding text reads JULIANA KONINGIN DER NEDERLANDEN (Juliana Queen of the Netherlands)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-netherlands-001_rev_1.png",
+          "design": "Displays the large numeral 10 centered, with the word CENT below it. Above the numeral is a royal Dutch crown. The year 1974 is split on either side of the crown (19 to the left, 74 to the right)."
+        }
+      }
+    },
+    {
+      "id": "FC-oman-001",
+      "title": "1/2 Rial (Sultanate of Oman)",
+      "itemType": "coin",
+      "country": "Oman",
+      "currency": "Omani Rial (﷼)",
+      "denomination": "1/2 Rial",
+      "year": 1980,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-oman-001_obv_1.png",
+          "design": "Features the National Emblem of Oman at the center, consisting of a khanjar dagger superimposed over two crossed swords. The Arabic inscription above reads (Sultanate of Oman) and the years (1400) and (1980) are at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-oman-001_rev_1.png",
+          "design": "Displays the face value as a fraction (1/2) in the center. The Arabic text surrounding the fraction translates to (Central Bank of Oman) at the top and (Half Rial) at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-oman-002",
+      "title": "50 Baisa (Sultanate of Oman)",
+      "itemType": "coin",
+      "country": "Oman",
+      "currency": "Omani Rial (﷼)",
+      "denomination": "50 Baisa",
+      "year": 1980,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-oman-002_obv_2.png",
+          "design": "Shows the National Emblem (crossed swords and khanjar) in the center. The Arabic text above translates to (Qaboos bin Said) and the text below translates to (Sultan of Oman)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-oman-002_rev_2.png",
+          "design": "Features the face value (50) in large Arabic numerals at the center, with small National Emblems on either side. The Arabic word for (Baisa) is written at the top, and the dates (1400) and (1980) are at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-saudiarabia-001",
+      "title": "25 Halalah (1/4 Riyal), Saudi Arabia",
+      "itemType": "coin",
+      "country": "Saudi Arabia",
+      "currency": "Saudi Riyal (﷼)",
+      "denomination": "25 Halalah",
+      "year": 1980,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-saudiarabia-001_obv_1.png",
+          "design": "The national emblem is at the center, consisting of two crossed swords with a palm tree above them. It features Arabic lettering around the emblem including the name of King Khalid bin Abdulaziz (Khalid bin Abdulaziz)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-saudiarabia-001_rev_1.png",
+          "design": " The numeral (25) is displayed at the center within a circle. Above this, the denomination is written in Arabic script (Twenty Five Halalah) and below is the Islamic Hijri year (1400), which corresponds to 1980. "
+        }
+      }
+    },
+    {
+      "id": "FC-saudiarabia-002",
+      "title": "50 Halalah (1/2 Riyal), Saudi Arabia",
+      "itemType": "coin",
+      "country": "Saudi Arabia",
+      "currency": "Saudi Riyal (﷼)",
+      "denomination": "50 Halalah",
+      "year": 2010,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-saudiarabia-002_obv_2.png",
+          "design": " Features the national emblem (crossed swords and palm tree) at the center. It is surrounded by Arabic lettering, including the title (Custodian of the Two Holy Mosques) and the name of King Abdullah bin Abdulaziz (Abdullah bin Abdulaziz)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-saudiarabia-002_rev_2.png",
+          "design": " The numeral (50) is shown at the center. Above the numeral, the denomination is written in Arabic script (Fifty Halalah). The Islamic Hijri year (1431), corresponding to 2010, is inscribed at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-singapore-001",
+      "title": "20 Cents, Singapore",
+      "itemType": "coin",
+      "country": "Singapore",
+      "currency": "Singapore Dollar (S$)",
+      "denomination": "20 Cents",
+      "year": 1968,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-singapore-001_obv_1.png",
+          "design": "The central denomination (20 CENTS) is flanked by two stalks of paddy on the left, with the year (1968) and issuing country (SINGAPORE) along the upper and right rim."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-singapore-001_rev_1.png",
+          "design": "A swordfish is depicted leaping against a background of wavy lines that represent water."
+        }
+      }
+    },
+    {
+      "id": "FC-singapore-002",
+      "title": "10 Cents, Singapore",
+      "itemType": "coin",
+      "country": "Singapore",
+      "currency": "Singapore Dollar (S$)",
+      "denomination": "10 Cents",
+      "year": 1991,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-singapore-002_obv_2.png",
+          "design": "The face value (10) is positioned below a floral design featuring the Star Jasmine (Jasminum multiflorum), with the denomination (TEN CENTS) written along the upper rim."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-singapore-002_rev_2.png",
+          "design": "The Singapore Coat of Arms is at the center, showing a lion and tiger supporting a shield. Below it is the year (1991), and the country name is inscribed around the rim in four languages: Malay (SINGAPURA), Tamil, Chinese, and English (SINGAPORE)."
+        }
+      }
+    },
+    {
+      "id": "FC-spain-001",
+      "title": "Spanish 2 Euro Cent",
+      "itemType": "coin",
+      "country": "Spain",
+      "currency": "Euro (€)",
+      "denomination": "2 Euro Cent",
+      "year": 2001,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-spain-001_obv_1.png",
+          "design": "The main image is the Santiago de Compostela Cathedral, a masterpiece of Spanish Romanesque architecture. It includes the text ESPAÑA (Spain) and the year 2001, surrounded by the twelve stars of the European Union."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-spain-001_rev_1.png",
+          "design": "The common side for all 2-cent euro coins, featuring a globe showing Europe in relation to Africa and Asia, with the numeral 2 and the words EURO CENT (Euro Cent). "
+        }
+      }
+    },
+    {
+      "id": "FC-srilanka-001",
+      "title": "Sri Lankan 2 Rupee Coin",
+      "itemType": "coin",
+      "country": "Sri Lanka",
+      "currency": "Sri Lankan Rupee (Rs)",
+      "denomination": "2 Rupees",
+      "year": 2013,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-001_obv_1.png",
+          "design": "Features the large numeral 2 at the center. The text TWO RUPEES is written in English, Sinhala, and Tamil. The name of the issuing country, SRI LANKA, appears along the right edge in English. The year of issue, 2013, is displayed at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-001_rev_1.png",
+          "design": " Depicts the Emblem of Sri Lanka, which includes a lion holding a sword within a decorative border topped by a wheel. "
+        }
+      }
+    },
+    {
+      "id": "FC-srilanka-002",
+      "title": "Sri Lankan 10 Rupee Coin",
+      "itemType": "coin",
+      "country": "Sri Lanka",
+      "currency": "Sri Lankan Rupee (Rs)",
+      "denomination": "10 Rupees",
+      "year": 2013,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-002_obv_2.png",
+          "design": " Features the large numeral 10 at the center. The text TEN RUPEES is written in English, Sinhala, and Tamil. The name of the issuing country, SRI LANKA, appears along the top edge in English. The year of issue, 2013, is displayed at the bottom flanked by ears of paddy."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-002_rev_2.png",
+          "design": "Depicts the Emblem of Sri Lanka, similar to the 2 Rupee coin but framed within the unique hendecagonal (11-sided) shape of the coin. "
+        }
+      }
+    },
+     {
+      "id": "FC-srilanka-003",
+      "title": "Sri Lankan 10 Rupee Coin",
+      "itemType": "coin",
+      "country": "Sri Lanka",
+      "currency": "Sri Lankan Rupee (Rs)",
+      "denomination": "10 Rupees",
+      "year": 2013,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-002_obv_3.png",
+          "design": " Features the large numeral 10 at the center. The text TEN RUPEES is written in English, Sinhala, and Tamil. The name of the issuing country, SRI LANKA, appears along the top edge in English. The year of issue, 2013, is displayed at the bottom flanked by ears of paddy."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-srilanka-002_rev_3.png",
+          "design": "Depicts the Emblem of Sri Lanka, similar to the 2 Rupee coin but framed within the unique hendecagonal (11-sided) shape of the coin. "
+        }
+      }
+    },
+    {
+      "id": "FC-switzerland-001",
+      "title": "10 Rappen",
+      "itemType": "coin",
+      "country": "Switzerland",
+      "currency": "Swiss Franc (CHF)",
+      "denomination": "10 Rappen",
+      "year": 1962,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-001_obv_1.png",
+          "design": " Features the right-facing head of Libertas (the Roman goddess of liberty) wearing a tiara (diadem) and a ribbon in her hair. It includes the Latin lettering CONFŒDERATIO HELVETICA (Swiss Confederation) and the year 1962."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-001_rev_1.png",
+          "design": " Displays the numeral 10 (face value) centered within a decorative wreath of two oak branches with acorns tied by a ribbon at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-switzerland-002",
+      "title": "10 Rappen",
+      "itemType": "coin",
+      "country": "Switzerland",
+      "currency": "Swiss Franc (CHF)",
+      "denomination": "10 Rappen",
+      "year": 1991,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-002_obv_2.png",
+          "design": " Features the right-facing head of Libertas (the Roman goddess of liberty) wearing a tiara (diadem) and a ribbon in her hair. It includes the Latin lettering CONFŒDERATIO HELVETICA (Swiss Confederation) and the year 1991."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-002_rev_2.png",
+          "design": " Displays the numeral 10 (face value) centered within a decorative wreath of two oak branches with acorns tied by a ribbon at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-switzerland-003",
+      "title": "20 Rappen",
+      "itemType": "coin",
+      "country": "Switzerland",
+      "currency": "Swiss Franc (CHF)",
+      "denomination": "20 Rappen",
+      "year": 1997,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-003_obv_3.png",
+          "design": " Right-facing head of Libertas wearing a diadem inscribed with the word LIBERTAS. The circular text reads CONFŒDERATIO HELVETICA (Swiss Confederation) with the year 1997 at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-003_rev_3.png",
+          "design": "The numeral 20 (face value) centered inside a wreath of Alpine roses (flowers). "
+        }
+      }
+    },
+    {
+      "id": "FC-switzerland-004",
+      "title": "1 Franc",
+      "itemType": "coin",
+      "country": "Switzerland",
+      "currency": "Swiss Franc (CHF)",
+      "denomination": "1 Franc",
+      "year": 1987,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-004_obv_4.png",
+          "design": "A standing figure of Helvetia (the personification of Switzerland) in a toga, holding a spear and a shield with the Swiss cross. It features the text HELVETIA (Switzerland) and 22 stars symbolizing the Swiss cantons."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-switzerland-004_rev_4.png",
+          "design": " Shows the value 1 Fr. and the year 1987 inside a wreath consisting of oak branches on the left and Alpine flowers on the right."
+        }
+      }
+    },
+    {
+      "id": "FC-thailand-001",
+      "title": "10 Baht, Thailand",
+      "itemType": "coin",
+      "country": "Thailand",
+      "currency": "Thai Baht (฿)",
+      "denomination": "10 Baht",
+      "year": 1996,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-001_obv_1.png",
+          "design": "A portrait of King Bhumibol Adulyadej (Rama IX) facing left. The Thai text around the portrait translates to (Bhumibol Adulyadej) and (Rama IX). "
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-001_rev_1.png",
+          "design": "An image of the Wat Arun (Temple of Dawn) in Bangkok, Thailand. The Thai text includes the denomination and the year of mintage, translating to (10 Baht) and (Thailand)."
+        }
+      }
+    },
+    {
+      "id": "FC-thailand-002",
+      "title": "10 Thai Baht, Thailand",
+      "itemType": "coin",
+      "country": "Thailand",
+      "currency": "Thai Baht (฿)",
+      "denomination": "10 Thai Baht",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-002_obv_2.png",
+          "design": " A portrait of King Bhumibol Adulyadej (Rama IX) facing left, wearing glasses and a royal uniform. The English text (Bhumibol Adulyadej Rama IX) corresponds to the Thai inscriptions on the front."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-002_rev_2.png",
+          "design": " A detailed depiction of Wat Arun (The Temple of Dawn) in Bangkok. The English text (Thailand 10 Baht) corresponds to the Thai inscriptions and the numerical value 10 on the back."
+        }
+      }
+    },
+    {
+      "id": "FC-thailand-003",
+      "title": "5 Baht, Thailand",
+      "itemType": "coin",
+      "country": "Thailand",
+      "currency": "Thai Baht (฿)",
+      "denomination": "5 Baht",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-003_obv_3.png",
+          "design": "Features the portrait of King Bhumibol Adulyadej (Rama IX) facing left, with his name and title (Bhumibol Adulyadej) and (Rama IX) inscribed in Thai."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-003_rev_3.png",
+          "design": "Depicts the Ubosot (ordination hall) of Wat Benchamabophit Dusitvanaram, also known as the (Marble Temple) in Bangkok. It includes the country name (Thailand), the Buddhist Era year of issue (for example, 2555), and the denomination (5 Baht) in both Thai script and Arabic numerals."
+        }
+      }
+    },
+    {
+      "id": "FC-thailand-004",
+      "title": "1 Baht, Thailand",
+      "itemType": "coin",
+      "country": "Thailand",
+      "currency": "Thai Baht (฿)",
+      "denomination": "1 Baht",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-004_obv_4.png",
+          "design": "Features the 2nd portrait of His Royal Highness King Bhumibol Adulyadej (Rama IX) facing left. The Thai script on the left translates to (Bhumibol Adulyadej) and the script on the right translates to (Rama IX)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-004_rev_4.png",
+          "design": "Depicts the Wat Phra Kaew (Temple of the Emerald Buddha) in Bangkok. The Thai text indicates the issuing country (Thailand), the year of minting according to the Buddhist calendar, and the face value (1 Baht)."
+        }
+      }
+    },
+    {
+      "id": "FC-thailand-005",
+      "title": "1 Thai Baht, Thailand.",
+      "itemType": "coin",
+      "country": "Thailand",
+      "currency": "Thai Baht (฿)",
+      "denomination": "1 Thai Baht",
+      "year": null,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-005_obv_5.png",
+          "design": "A front-facing bust of King Bhumibol Adulyadej (Rama IX) wearing a royal gown. The Thai text indicates the king's name and title."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-thailand-005_rev_5.png",
+          "design": "The Royal Golden Jubilee Emblem, featuring the king's monogram and two mythical elephants. The Thai text commemorates the 50th anniversary of the king's reign."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedarabemirates-001",
+      "title": "1 Dirham",
+      "itemType": "coin",
+      "country": "United Arab Emirates",
+      "currency": "UAE Dirham (د.إ)",
+      "denomination": "1 Dirham",
+      "year": 1984,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-001_obv_1.png",
+          "design": "The central numeral (١) for one and the word (درهم) for dirham, surrounded by the country's name in Arabic (الإمارات العربية المتحدة) at the top and English (UNITED ARAB EMIRATES) at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-001_rev_1.png",
+          "design": "A central image of a (Dallah), which is a traditional Arabic coffee pot. Below the pot are the years of minting in both the Hijri (Islamic) and Gregorian calendars (e.g., ١٤٠٤-١٩٨٤ for 1404-1984)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedarabemirates-002",
+      "title": "50 Fils",
+      "itemType": "coin",
+      "country": "United Arab Emirates",
+      "currency": "UAE Dirham (د.إ)",
+      "denomination": "50 Fils",
+      "year": 1973,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-002_obv_2.png",
+          "design": "The central numeral (٥٠) for fifty and the word (فلساً) for fils, surrounded by the country's name in Arabic (الإمارات العربية المتحدة) at the top and English (UNITED ARAB EMIRATES) at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-002_rev_2.png",
+          "design": "A central image of (three oil derricks), symbolizing the nation's oil industry. Below the derricks are the years of minting in both Hijri and Gregorian calendars (e.g., ١٣٩٣-١٩٧٣ for 1393-1973)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedarabemirates-003",
+      "title": "1 Dirham, UAE",
+      "itemType": "coin",
+      "country": "United Arab Emirates",
+      "currency": "UAE Dirham (د.إ)",
+      "denomination": "1 Dirham",
+      "year": 1973,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-003_obv_3.png",
+          "design": "The central image features the denomination (1) and the word Dirham in Arabic calligraphy. It is surrounded by the name of the issuing country in both Arabic and English (United Arab Emirates)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-003_rev_3.png",
+          "design": "The central image is a Dallah, which is a traditional Arabic coffee pot symbolising hospitality. The bottom of the coin displays the year of minting in both the Islamic calendar (1435) and the Gregorian calendar (2014) using Arabic-Indic numerals."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedarabemirates-004",
+      "title": "1 Dirham, UAE",
+      "itemType": "coin",
+      "country": "United Arab Emirates",
+      "currency": "UAE Dirham (د.إ)",
+      "denomination": "1 Dirham",
+      "year": 1973,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-004_obv_4.png",
+          "design": "Features a large Arabic numeral (1) with the word (Dirham) written in Arabic calligraphy below it. The name of the country (United Arab Emirates) is inscribed in both Arabic at the top and English at the bottom (UNITED ARAB EMIRATES)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedarabemirates-004_rev_4.png",
+          "design": "Features a traditional Arabic coffee pot, known as a (Dallah), which is a symbol of hospitality. The year of minting is inscribed at the bottom in both Hijri (Islamic) and Gregorian (Western) dates, such as (1435-2014) or similar depending on the specific year."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-001",
+      "title": "Ten New Pence",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "10 Pence",
+      "year": 1968,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-001_obv_1.png",
+          "design": " The second crowned portrait of Queen Elizabeth II facing right (ELIZABETH II D G REG F D 1968)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-001_rev_1.png",
+          "design": " A crowned lion passant, which is part of the crest of England, with the numeral 10 below (NEW PENCE 10). "
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-002",
+      "title": "Fifty Pence",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "50 Pence",
+      "year": 2004,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-002_obv_2.png",
+          "design": "The fourth crowned portrait of Queen Elizabeth II facing right, featuring a more mature effigy (ELIZABETH II D G REG F D 2004)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-002_rev_2.png",
+          "design": " A seated figure of Britannia beside a lion, holding a trident and an olive branch, with the numeral 50 below (FIFTY PENCE 50)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-003",
+      "title": "2004 Ten Pence",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "10 Pence",
+      "year": 2004,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-003_obv_3.png",
+          "design": "The fourth crowned portrait of Queen Elizabeth II facing right (ELIZABETH II D G REG F D 2004)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-003_rev_3.png",
+          "design": " A crowned lion passant guardant, part of the crest of England, with the numeral 10 below (TEN PENCE 10)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-004",
+      "title": "1990 Five Pence",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "5 Pence",
+      "year": 1990,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-004_obv_4.png",
+          "design": " Features the third crowned portrait of Queen Elizabeth II facing right, wearing the George IV State Diadem. (ELIZABETH II D·G·REG·F·D·1990)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-004_rev_4.png",
+          "design": "Features the Badge of Scotland, which is a royally crowned thistle. (FIVE PENCE 5)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-005",
+      "title": "2010 One Penny",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "1 Penny",
+      "year": 2010,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-005_obv_5.png",
+          "design": "Features the fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland tiara. (ELIZABETH II·D·G·REG·F·D·2010)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-005_rev_5.png",
+          "design": "Displays a segment of the Royal Shield, specifically the section representing England and Northern Ireland. (ONE PENNY)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-006",
+      "title": "One Penny Coin (1983)",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "1 Penny",
+      "year": 1983,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-006_obv_6.png",
+          "design": " A right-facing portrait of Queen Elizabeth II wearing a tiara (ELIZABETH II D G REG F D 1983)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-006_rev_6.png",
+          "design": "A crowned portcullis with chains, which is a symbol of the British Parliament (ONE PENNY) with the numeral (1) below the gate. "
+        }
+      }
+    },
+    {
+      "id": "FC-unitedkingdom-007",
+      "title": "Ten Pence Coin (2014)",
+      "itemType": "coin",
+      "country": "United Kingdom",
+      "currency": "Pound Sterling (£)",
+      "denomination": "10 Pence",
+      "year": 2014,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-007_obv_7.png",
+          "design": " A right-facing portrait of Queen Elizabeth II (ELIZABETH II D G REG F D 2014)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedkingdom-007_rev_7.png",
+          "design": "A section of the Royal Shield of Arms, specifically showing two lions passant guardant (TEN PENCE)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-001",
+      "title": "Washington Quarter",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "25 Cents",
+      "year": 1985,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-001_obv_1.png",
+          "design": "A left-facing portrait of George Washington. (LIBERTY) is at the top, (IN GOD WE TRUST) is to the left, and the year (1985) is at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-001_rev_1.png",
+          "design": " A bald eagle with outspread wings perched on a bundle of arrows with two olive branches below. (UNITED STATES OF AMERICA) and (E PLURIBUS UNUM) are at the top, with (QUARTER DOLLAR) at the bottom."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-002",
+      "title": "2002 Louisiana State Quarter",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "Quarter Dollar (25 cents)",
+      "year": 2002,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-002_obv_2.png",
+          "design": "A modified portrait of George Washington. (UNITED STATES OF AMERICA) is at the top, with (LIBERTY) and (IN GOD WE TRUST) on the sides, and (QUARTER DOLLAR) at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-002_rev_2.png",
+          "design": " An image of a pelican, a trumpet with musical notes, and an outline of the Louisiana Purchase on a map. (LOUISIANA), (1812), (LOUISIANA PURCHASE), (2002), and (E PLURIBUS UNUM) are inscribed."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-003",
+      "title": "2000 Massachusetts State Quarter",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "Quarter Dollar (25 cents)",
+      "year": 2000,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-003_obv_3.png",
+          "design": "A modified portrait of George Washington. (UNITED STATES OF AMERICA) is at the top, with (LIBERTY) and (IN GOD WE TRUST) on the sides, and (QUARTER DOLLAR) at the bottom."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-003_rev_3.png",
+          "design": " An image of a Minuteman of the American Revolution standing against an outline of the state. (MASSACHUSETTS), (1788), (THE BAY STATE), (2000), and (E PLURIBUS UNUM) are inscribed."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-004",
+      "title": "1964 Lincoln Cent",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "One cent",
+      "year": 1964,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-004_obv_4.png",
+          "design": " A portrait of Abraham Lincoln facing right, with text (IN GOD WE TRUST) across the top rim, (LIBERTY) to the left, and the year (1964) to the right."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-004_rev_4.png",
+          "design": "An image of the Lincoln Memorial building, with text (E PLURIBUS UNUM) above the memorial, and (UNITED STATES OF AMERICA) and (ONE CENT) curved around the top and bottom rims, respectively."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-005",
+      "title": "1996 Lincoln Cent",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "One cent",
+      "year": 1996,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-004_obv_5.png",
+          "design": "A portrait of Abraham Lincoln facing right, with text (IN GOD WE TRUST) across the top rim, (LIBERTY) to the left, and the year (1996) to the right."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-004_rev_5.png",
+          "design": "An image of the Lincoln Memorial building, with text (E PLURIBUS UNUM) above the memorial, and (UNITED STATES OF AMERICA) and (ONE CENT) curved around the top and bottom rims, respectively."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-006",
+      "title": "2016-D Jefferson Nickel",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "Five Cents",
+      "year": 2016,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_obv_6.png",
+          "design": "A forward-facing portrait of Thomas Jefferson. Text includes (IN GOD WE TRUST) on the right, (Liberty) in script, the year (2016), and the mint mark (D) for Philadelphia."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_rev_6.png",
+          "design": " An elevation view of Monticello, Jefferson's Virginia home. Text includes (E PLURIBUS UNUM) at the top, (MONTICELLO) directly below the building, (FIVE CENTS), and (UNITED STATES OF AMERICA) at the bottom. "
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-007",
+      "title": "2017-D Jefferson Nickel",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "Five Cents",
+      "year": 2017,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_obv_7.png",
+          "design": "A forward-facing portrait of Thomas Jefferson. Text includes (IN GOD WE TRUST) on the right, (Liberty) in script, the year (2017), and the mint mark (D) for Denver."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_rev_7.png",
+          "design": " An elevation view of Monticello. Text includes (E PLURIBUS UNUM) at the top, (MONTICELLO) below the building, (FIVE CENTS), and (UNITED STATES OF AMERICA) at the bottom. "
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-008",
+      "title": "2006-P Jefferson Nickel",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "Five Cents",
+      "year": 2006,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_obv_8.png",
+          "design": "A forward-facing portrait of Thomas Jefferson (Return to Monticello design). Text includes (IN GOD WE TRUST) on the right, (Liberty) in script, the year (2006), and the mint mark (P)."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-006_rev_8.png",
+          "design": "An elevation view of Monticello. Text includes (E PLURIBUS UNUM) at the top, (MONTICELLO) below the building, (FIVE CENTS), and (UNITED STATES OF AMERICA) at the bottom"
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-009",
+      "title": "2011 D Roosevelt Dime",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "10 Cents (Dime)",
+      "year": 2011,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_obv_9.png",
+          "design": "A left-facing portrait of President Franklin D. Roosevelt. It features the text (LIBERTY) to the left, (IN GOD WE TRUST) below his chin, the date (2011), and the (D) mint mark for Denver."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_rev_9.png",
+          "design": "A central torch representing liberty, flanked by an olive branch for peace and an oak branch for strength. It includes the text (UNITED STATES OF AMERICA), (E • PLURIBUS • UNUM), and the value (ONE DIME)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-010",
+      "title": "2013 P Roosevelt Dime",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "10 Cents (Dime)",
+      "year": 2013,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-010_obv_10.png",
+          "design": " A left-facing portrait of President Franklin D. Roosevelt. It features the text (LIBERTY) at the left, (IN GOD WE TRUST) below the chin, the date (2013), and the (P) mint mark for Philadelphia."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_rev_10.png",
+          "design": "A central torch flanked by an olive branch and an oak branch. Text includes (UNITED STATES OF AMERICA), (E • PLURIBUS • UNUM), and (ONE DIME)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-011",
+      "title": "1994 D Roosevelt Dime",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "10 Cents (Dime)",
+      "year": 1994,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-011_obv_11.png",
+          "design": "A left-facing portrait of President Franklin D. Roosevelt. It features the text (LIBERTY) to the left, (IN GOD WE TRUST) below the chin, the date (1994), and the (D) mint mark."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_rev_11.png",
+          "design": "A central torch flanked by an olive branch and an oak branch. Text includes (UNITED STATES OF AMERICA), (E • PLURIBUS • UNUM), and (ONE DIME)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-012",
+      "title": "1985 P Roosevelt Dime",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "10 Cents (Dime)",
+      "year": 1985,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-011_obv_12.png",
+          "design": "A left-facing portrait of President Franklin D. Roosevelt. It features the text (LIBERTY) at the left, (IN GOD WE TRUST) below the chin, the date (1985), and the (P) mint mark."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_rev_12.png",
+          "design": "A central torch flanked by an olive branch and an oak branch. Text includes (UNITED STATES OF AMERICA), (E • PLURIBUS • UNUM), and (ONE DIME)."
+        }
+      }
+    },
+    {
+      "id": "FC-unitedstatesofamerica-012",
+      "title": "1985 P Roosevelt Dime",
+      "itemType": "coin",
+      "country": "United States of America",
+      "currency": "US Dollar ($)",
+      "denomination": "10 Cents (Dime)",
+      "year": 1985,
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-011_obv_12.png",
+          "design": "A left-facing portrait of President Franklin D. Roosevelt. It features the text (LIBERTY) at the left, (IN GOD WE TRUST) below the chin, the date (1985), and the (P) mint mark."
+        },
+        "reverse": {
+          "image": "../assets/Foreign_Coins/FC-unitedstatesofamerica-009_rev_12.png",
+          "design": "A central torch flanked by an olive branch and an oak branch. Text includes (UNITED STATES OF AMERICA), (E • PLURIBUS • UNUM), and (ONE DIME)."
+        }
+      }
+    }
+  ]
+}

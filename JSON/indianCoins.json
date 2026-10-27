@@ -1,0 +1,3784 @@
+{
+  "category": "Indian Coins",
+  "subTypes": {
+    "regular": {
+      "label": "Regular Coins",
+
+      "preDecimal": {
+        "label": "Pre-Decimal",
+        "items": [
+          {
+            "id": "IC-R-PRE-001",
+            "title": "व्हिक्टोरिया राणी • QUEEN VICTORIA",
+            "itemType": "coin",
+            "country": "British India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "1 Rupee",
+            "year": 1840,
+            "specifications": {
+              "metal": "Silver (.917)",
+              "weight": "11.64 g",
+              "shape": "Round",
+              "size": "32 mm",
+              "mint": "Madras (Chennai), Calcutta (Kolkata), Bombay (Mumbai)"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Pre-Decimal/ind_reg_pre_obv_1.jpg",
+                "design": "Left-facing portrait of Queen Victoria",
+                "lettering": "VICTORIA QUEEN"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Pre-Decimal/ind_reg_pre_rev_1.jpg",
+                "design": "Value within wreath, with English legend and date below",
+                "lettering": "EAST INDIA COMPANY • 1840 • ONE RUPEE • یک روپیہ"
+              }
+            }
+          }
+        ]
+      },
+      "decimal": {
+        "label": "Decimal",
+        "items": [
+          {
+            "id": "IC-R-DEC-P-001",
+            "title": "1 Paisa Coin",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "1 Paisa",
+            "year": 1966,
+            "specifications": {
+              "metal": "Aluminium",
+              "weight": "0.75 g",
+              "shape": "Square with rounded corners",
+              "size": "17 mm",
+              "mint": "Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone1.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत INDIA"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone.1.jpg",
+                "design": "Numeral 1 flanked by stalks of grain",
+                "lettering": "पैसे 1 PAISA 1966"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-002",
+            "title": "1 Paisa Coin",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "1 Paisa",
+            "year": 1964,
+            "specifications": {
+              "metal": "Nickel-Brass or Bronze",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone2.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "Government of India lettering in Hindi and English"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone.2.jpg",
+                "design": "Denomination numeral '1' with text above and below",
+                "lettering": "एक नया पैसा (Ek Naya Paisa), एक पैसा (Ek Paisa), 1964"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldone.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-004",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwo1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwo.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-005",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwo3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwo.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-006",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldthree1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldthree.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-007",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfive1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfive.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-008",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfive2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfive.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-009",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-010",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-011",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-012",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten4.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten.4.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-013",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten5.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldten.5.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-014",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwenty1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwenty.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-015",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwentyfive1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwentyfive.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-016",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwentyfive2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldtwentyfive.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-017",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-018",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-P-019",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/Paisa/oldfifty.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-002",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-004",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one4.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.4.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-005",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one5.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.5.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-006",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one6.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.6.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-1-007",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one7.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/1/one.7.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-2-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-2-002",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-2-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-2-004",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two4.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two.4.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-2-005",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two5.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/2/two.5.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-5-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-5-002",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-5-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-5-004",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five4.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five.4.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-5-005",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five5.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/5/five.5.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-10-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten1.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten.1.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-10-002",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten2.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten.2.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-10-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten3.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/10/ten.3.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-R-DEC-20-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1964,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/20/20A.jpg",
+                "design": "-",
+                "lettering": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Rupee_Coins/Decimal/20/20.A.jpg",
+                "design": "-",
+                "lettering": "-"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "commemorative": {
+      "label": "Commemorative Coins",
+      "preDecimal": {
+        "label": "Pre-Decimal",
+        "items": [
+          {
+            "id": "IC-C-PRE-001",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/purana1.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/purana.1.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-002",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/purana2.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/purana.2.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old11.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.11.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-003",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old11.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.11.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-004",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old12.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.12.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-005",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old13.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.13.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-006",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old14.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.14.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-007",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old16.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.16.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-008",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old17.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.17.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-009",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old19.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.19.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-010",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old20.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.20.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-PRE-011",
+            "title": "-",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee (Pre-Decimal)",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old21.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Pre-Decimal/old.21.jpg",
+                "design": "-"
+              }
+            }
+          }
+        ]
+      },
+      "decimal": {
+        "label": "Decimal",
+        "items": [
+          {
+            "id": "IC-C-DEC-P-001",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old1.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.1.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-002",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old2.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.2.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-003",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old3.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.3.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-004",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old4.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.4.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-005",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old5.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.5.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-006",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old6.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.6.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-007",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old7.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.7.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-008",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old8.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.8.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-009",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old9.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.9.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-010",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old10.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.10.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-015",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old15.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.15.jpg",
+                "design": "-"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-P-018",
+            "title": "Old-commemorative",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "-",
+            "year": 1234,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "-",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old18.jpg",
+                "design": "-"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/Paisa/old.18.jpg",
+                "design": "-"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-1-001",
+            "title": "महाराणा प्रताप • MAHARANA PRATAP",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 2003,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "4.95 g",
+              "shape": "Round",
+              "size": "25 mm",
+              "mint": "◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1a.jpg",
+                "design": "Bust of Maharana Pratap facing left - महाराणा प्रताप • MAHARANA PRATAP • 1540–1597 • 2003"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-002",
+            "title": "लोक नायक जयप्रकाश नारायण • LOK NAYAK JAYA PRAKASH NARAYAN",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 2002,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "4.95 g",
+              "shape": "Round",
+              "size": "25 mm",
+              "mint": "Mumbai / Bombay, ★ Hyderabad, ♦ Mumbai / Bombay, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1b.jpg",
+                "design": "Bust of Jayaprakash Narayan - लोक नायक जय प्रकाश नारायण • LOK NAYAK JAYA PRAKASH NARAYAN • जन्मशती 2002 CENTENARY"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-003",
+            "title": "विश्व तमिल सम्मेलन • WORLD TAMIL CONFERENCE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1995,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "5 g",
+              "shape": "Round",
+              "size": "25 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ● Noida, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1c.jpg",
+                "design": "Seated Saint Thiruvalluvar facing 3/4 right - 8वाँ विश्व तमिल सम्मेलन • WORLD TAMIL CONFERENCE • संत तिरुवल्लुवर • SAINT THIRUVALLUVAR • 1995"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-004",
+            "title": "अंतर्राष्ट्रीय परिवार वर्ष • INTERNATIONAL YEAR OF THE FAMILY",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1994,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "4.85 g",
+              "shape": "Round",
+              "size": "25 mm",
+              "mint": "● Noida, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1d.jpg",
+                "design": "Family inside inner circle - अंतर्राष्ट्रीय परिवार वर्ष • INTERNATIONAL YEAR OF THE FAMILY • 1994"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-005",
+            "title": "सेल्युलर जेल, पोर्ट ब्लेयर • CELLULAR JAIL, PORT BLAIR",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1997,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "4.88 g",
+              "shape": "Round",
+              "size": "25 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ◆ Noida, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1e.jpg",
+                "design": "Cellular Jail building - सेल्युलर जेल • CELLULAR JAIL • पोर्ट ब्लेयर 1997 • PORT BLAIR"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-006",
+            "title": "भारतीय रिज़र्व बैंक प्लेटिनम जयंती • PLATINUM JUBILEE OF RESERVE BANK OF INDIA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 2010,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "4.95 g",
+              "shape": "Round",
+              "size": "24.8 mm",
+              "mint": "★ Hyderabad, ♦ Mumbai / Bombay, B Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.f.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1f.jpg",
+                "design": "Bengal Tiger walking left beneath palm tree - भारतीय रिज़र्व बैंक • RESERVE BANK OF INDIA • प्लैटिनम जयंती • PLATINUM JUBILEE • 1935–2010"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-007",
+            "title": "डॉ. बी. आर. अम्बेडकर • DR. B. R. AMBEDKAR",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1990,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "* Hyderabad, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.g.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1g.jpg",
+                "design": "Bust of Dr. B. R. Ambedkar facing right - डॉ.बी.आर.अम्बेडकर • DR. B.R. AMBEDKAR • जन्म शती 1990 • CENTENARY"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-008",
+            "title": "वर्षा आधारित कृषि • RAINFED FARMING (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1988,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.h.jpg",
+                "design": "Ashoka Pillar Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1h.jpg",
+                "design": "Figure with flowers and rain cloud - RAINFED FARMING • FAO • 1988"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-009",
+            "title": "सार्क वर्ष • SAARC YEAR (CARE FOR THE GIRL CHILD)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1990,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "* Hyderabad, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.h.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1i.jpg",
+                "design": "Girl figure below sun with SAARC symbol - खुशहाल बालिका भविष्य देश का • CARE FOR THE GIRL CHILD • SAARC YEAR • 1990"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-010",
+            "title": "राष्ट्रमंडल संसदीय सम्मेलन • COMMONWEALTH PARLIAMENTARY CONFERENCE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1991,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "♦ Mumbai / Bombay, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.j.jpg",
+                "design": "Ashoka Pillar Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1j.jpg",
+                "design": "Parliament Building - राष्ट्रमंडल संसदीय सम्मेलन • COMMONWEALTH PARLIAMENTARY CONFERENCE • 1991"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-011",
+            "title": "राजीव गांधी • RAJIV GANDHI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1991,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.k.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1k.jpg",
+                "design": "Bust of Rajiv Gandhi facing 3/4 left - राजीव गांधी • RAJIV GANDHI • 1944–1991"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-012",
+            "title": "जवाहरलाल नेहरू • JAWAHARLAL NEHRU",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1989,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "Kolkata / Calcutta, * Hyderabad, ° Noida, ♦ Mumbai / Bombay, B Mumbai / Bombay, U Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.l.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1l.jpg",
+                "design": "Capped bust of Jawaharlal Nehru facing right - जवाहरलाल नेहरु • JAWAHARLAL NEHRU • जन्मशती 1989 • CENTENARY"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-013",
+            "title": "समेकित बाल विकास सेवा • I.C.D.S. ANNIVERSARY",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1990,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.05 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "* Hyderabad, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.m.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1m.jpg",
+                "design": "Seated figure holding child with radiant design - समेकित बाल विकास सेवा योजना के 15 वर्ष • वसुधैव कुटुम्बकम • 15 YEARS OF I.C.D.S. • 1975–1990"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-014",
+            "title": "पर्यटन वर्ष • TOURISM YEAR",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1991,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "◆ Mumbai / Bombay, ★ Hyderabad, B Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.n.jpg",
+                "design": "Ashoka Pillar Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1n.jpg",
+                "design": "Stylized peacock - पर्यटन वर्ष • TOURISM YEAR • 1991"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-015",
+            "title": "छोटे किसान • SMALL FARMERS (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1987,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "Kolkata / Calcutta, * Hyderabad, ♦ Mumbai / Bombay, B Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.o.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1o.jpg",
+                "design": "Two farmers working in the field - छोटे किसान • FAO • SMALL FARMERS • 1987"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-1-016",
+            "title": "मत्स्य उद्योग • FISHERIES (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹1",
+            "year": 1986,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "26 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1.p.jpg",
+                "design": "Ashoka Lion Capitol - भारत • INDIA • सत्यमेव जयते • रूपया 1 RUPEE"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/1/1p.jpg",
+                "design": "Fisherman casting net from a boat - मत्स्य उद्योग • FISHERIES • 1986"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-001",
+            "title": "नवम एशियाई खेल • IX ASIAN GAMES",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1982,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "8.1 g",
+              "shape": "Round",
+              "size": "28 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2a.jpg",
+                "design": "Asian Games symbol with rising sun (Jantar Mantar) - नवम एशियाई खेल • IX ASIAN GAMES • DELHI • 1982"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-002",
+            "title": "छत्रपति शिवाजी • CHHATRAPATI SHIVAJI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1999,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "5.69 g",
+              "shape": "Hendecagonal",
+              "size": "25.9 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ● Noida, ★ Hyderabad, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2b.jpg",
+                "design": "Bust of Shivaji facing right - छत्रपति शिवाजी • CHHATRAPATI SHIVAJI • 1999"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-003",
+            "title": "संत तुकाराम • SANT TUKARAM",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2002,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.1 g",
+              "shape": "Hendecagonal",
+              "size": "26.7 mm",
+              "mint": "Kolkata / Calcutta, ● Noida, ★ Hyderabad, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2c.jpg",
+                "design": "Seated Sant Tukaram with musical instrument - संत तुकाराम • SANT TUKARAM • 2002"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-004",
+            "title": "भारतीय रेल 150 वर्ष • 150 YEARS OF INDIAN RAILWAYS",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2003,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.05 g",
+              "shape": "Hendecagonal",
+              "size": "26.5 mm",
+              "mint": "Kolkata / Calcutta, * Hyderabad, ° Noida, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2d.jpg",
+                "design": "Bholu (railway guard mascot) - Railways • रेलवे • 150 Glorious Years • 2003"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-005",
+            "title": "श्री अरविन्द • SRI AUROBINDO",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1998,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "5.64 g",
+              "shape": "Hendecagonal",
+              "size": "25.9 mm",
+              "mint": "Kolkata / Calcutta, ° Noida, ◆ Mumbai / Bombay, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2e.jpg",
+                "design": "Bust of Sri Aurobindo - श्री अरविन्द • ALL LIFE IS YOGA • 1998"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-006",
+            "title": "डॉ. श्यामा प्रसाद मुखर्जी • DR. SYAMA PRASAD MOOKERJEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2001,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.24 g",
+              "shape": "Hendecagonal",
+              "size": "25.7 mm",
+              "mint": "Kolkata / Calcutta, ● Noida, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2f.jpg",
+                "design": "Bust of Dr. Mookerjee - जन्मशती 2001 • CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-007",
+            "title": "सरदार वल्लभभाई पटेल • SARDAR PATEL",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1996,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.02 g",
+              "shape": "Hendecagonal",
+              "size": "25.9 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ● Noida, ★ Hyderabad, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2g.jpg",
+                "design": "Bust of Sardar Patel - 1996"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-008",
+            "title": "सुभाष चन्द्र बोस • SUBHAS CHANDRA BOSE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1997,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Hendecagonal",
+              "size": "25.9 mm",
+              "mint": "Kolkata / Calcutta, * Hyderabad, ° Noida, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.a.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2h.jpg",
+                "design": "Bust of Bose - जन्मशती 1997 • CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-009",
+            "title": "देशबंधु चित्तरंजन दास • CHITTARANJAN DAS",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1998,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Hendecagonal",
+              "size": "26 mm",
+              "mint": "Kolkata / Calcutta, ● Noida, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.i.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2i.jpg",
+                "design": "Bust - देशबंधु चित्तरंजन दास • 1870–1925 • 1998"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-010",
+            "title": "छोटा परिवार खुशियाँ अपार • SMALL FAMILY HAPPY FAMILY",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1993,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Hendecagonal",
+              "size": "26.5 mm",
+              "mint": "★ Hyderabad, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.j.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2j.jpg",
+                "design": "Family - छोटा परिवार खुशियाँ अपार • 1993"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-011",
+            "title": "भारत का उच्चतम न्यायालय • SUPREME COURT OF INDIA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2000,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Hendecagonal",
+              "size": "26.5 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ★ Hyderabad, B Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.j.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2k.jpg",
+                "design": "Ashoka emblem with wheel - SUPREME COURT • 1950–2000"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-012",
+            "title": "जैविक विविधता • BIO DIVERSITY (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1993,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6 g",
+              "shape": "Hendecagonal",
+              "size": "26.5 mm",
+              "mint": "◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.j.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2l.jpg",
+                "design": "BIO DIVERSITY • FAO • WORLD FOOD DAY • 1993"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-013",
+            "title": "जल जीवन का आधार • WATER FOR LIFE (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 1994,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "6.1 g",
+              "shape": "Hendecagonal",
+              "size": "26.5 mm",
+              "mint": "Kolkata / Calcutta, ◆ Mumbai / Bombay, ★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.m.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2m.jpg",
+                "design": "Water drop with FAO symbol - WATER FOR LIFE • 1994"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-014",
+            "title": "लुई ब्रेल • LOUIS BRAILLE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2009,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "5.8 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata / Calcutta, * Hyderabad, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.n.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2n.jpg",
+                "design": "Bust of Louis Braille with Braille script - 1809–2009"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-015",
+            "title": "राष्ट्रमंडल खेल • COMMONWEALTH GAMES DELHI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2010,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "5.8 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata / Calcutta, ★ Hyderabad, ◆ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.n.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2o.jpg",
+                "design": "Commonwealth Games logo - XIX COMMONWEALTH GAMES • DELHI • 2010"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-2-016",
+            "title": "भारतीय रिज़र्व बैंक प्लेटिनम जयंती • RBI PLATINUM JUBILEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹2",
+            "year": 2010,
+            "specifications": {
+              "metal": "Stainless steel",
+              "weight": "5.8 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata / Calcutta, ★ Hyderabad, ◆ Mumbai / Bombay, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2.p.jpg",
+                "design": "Ashoka lion pedestal - भारत • INDIA • सत्यमेव जयते • रुपये 2 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/2/2p.jpg",
+                "design": "RBI emblem with tiger and palm - RESERVE BANK OF INDIA • PLATINUM JUBILEE • 1935–2010"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-001",
+            "title": "महात्मा गांधी • MAHATMA GANDHI (दक्षिण आफ्रिकेतून परतावा)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": "1915–2015",
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "kolkata; mumbai; hyderabad; noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10a.jpg",
+                "design": "Young and old Mahatma Gandhi showing transformation from Pravasi to Mahatma",
+                "lettering": "दक्षिण अफ्रीका से वापसी • RETURN FROM SOUTH AFRICA • 1915–2015 • शताब्दी स्मरणोत्सव • CENTENARY COMMEMORATION • महात्मा गांधी • MAHATMA GANDHI"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-002",
+            "title": "डॉ. बाबासाहेब आंबेडकर • DR. B.R. AMBEDKAR",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": 2015,
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata; Hyderabad; Noida; Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10b.jpg",
+                "design": "Dr. B.R. Ambedkar seated at study table",
+                "lettering": "डॉ बी आर अम्बेडकर की 125 वीं जयंती • 125TH BIRTH ANNIVERSARY OF DR. B.R. AMBEDKAR • 2015"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-003",
+            "title": "स्वामी चिन्मयानंद • SWAMI CHINMAYANANDA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": 2015,
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata; Hyderabad; Noida; Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10c.jpg",
+                "design": "Bust of Swami Chinmayananda",
+                "lettering": "स्वामी चिन्मयानंद की जन्मशती • Birth Centenary of Swami Chinmayananda • 2015"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-004",
+            "title": "होमी भाभा • HOMI BHABHA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": "2008–2009",
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "kolkata; mumbai; hyderabad; noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10d.jpg",
+                "design": "Bust of Dr. Homi Bhabha facing 3/4 left",
+                "lettering": "होमी भाभा जन्म शताब्दी वर्ष • HOMI BHABHA BIRTH CENTENARY YEAR • 2008–2009"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-005",
+            "title": "श्री माता वैष्णो देवी • SHRI MATA VAISHNO DEVI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": 2012,
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Hyderabad; Noida; Mumbai (♦ & B)"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10e.jpg",
+                "design": "Image of Shri Mata Vaishno Devi with Silver Jubilee theme",
+                "lettering": "श्री माता वैष्णो देवी श्राईन बोर्ड • SILVER JUBILEE • SHRI MATA VAISHNO DEVI SHRINE BOARD • 2012"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-006",
+            "title": "आंतरराष्ट्रीय योग दिवस • INTERNATIONAL DAY OF YOGA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": 2015,
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata; Noida; Hyderabad; Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10f.jpg",
+                "design": "Yoga figure in lotus posture with globe and folded hands",
+                "lettering": "अनतर्राष्ट्रीय योग दिवस • INTERNATIONAL DAY OF YOGA • सामंजस्य एवं शान्ति के लिए योग • YOGA FOR HARMONY AND PEACE • 21 JUNE 2015"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-007",
+            "title": "भारतीय रिझर्व बँक प्लॅटिनम जयंती • RBI PLATINUM JUBILEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": "1935–2010",
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Noida; Hyderabad; Mumbai (♦ & M)"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10g.jpg",
+                "design": "Lion advancing left with palm tree (RBI emblem)",
+                "lettering": "भारतीय रिज़र्व बैंक • RESERVE BANK OF INDIA • प्लैटिनम जयंती • PLATINUM JUBILEE • 1935–2010"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-008",
+            "title": "भारतीय संसद • PARLIAMENT OF INDIA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": "1952–2012",
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "27 mm",
+              "mint": "Kolkata; Noida; Hyderabad; Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10h.jpg",
+                "design": "Parliament building structure",
+                "lettering": "भारत की संसद के 60 वर्ष • 60 YEARS OF THE PARLIAMENT OF INDIA • 1952–2012"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-10-009",
+            "title": "कयर बोर्ड • COIR BOARD",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹10",
+            "year": "1953–2013",
+            "specifications": {
+              "metal": "bimetallic (outer ring: aluminium-bronze / nickel-brass, inner core: copper-nickel / nickel-silver)",
+              "weight": "~7.71 g",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; Noida; Hyderabad; Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 10 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/10/10i.jpg",
+                "design": "Coir Board logo",
+                "lettering": "कयर बोर्ड के 60 वर्ष • DIAMOND JUBILEE • 60 YEARS OF COIR BOARD • 1953–2013"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-001",
+            "title": "जवाहरलाल नेहरू • JAWAHARLAL NEHRU",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1989,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "12.6 g",
+              "shape": "Round",
+              "size": "31.1 mm",
+              "mint": "♦ Mumbai, B Mumbai (Proof), U Mumbai (UNC), * Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5A2.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5A1.jpg",
+                "design": "Capped bust of Jawaharlal Nehru facing right",
+                "lettering": "जवाहरलाल नेहरु • JAWAHARLAL NEHRU • जन्मशती 1989 • CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-002",
+            "title": "इंदिरा गांधी • INDIRA GANDHI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1984,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "12.6 g",
+              "shape": "Round",
+              "size": "31.1 mm",
+              "mint": "♦ Mumbai, B Mumbai (Proof), * Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5B2.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5B1.jpg",
+                "design": "Bust of Indira Gandhi facing right",
+                "lettering": "इंदिरा गांधी • INDIRA GANDHI • 1917–1984"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-003",
+            "title": "खाद्य एवं कृषि संगठन • FOOD AND AGRICULTURE ORGANISATION (FAO)",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1995,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "9 g",
+              "shape": "Round",
+              "size": "23 mm",
+              "mint": "* Hyderabad, ° Noida, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.a.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5a.jpg",
+                "design": "FAO symbol on hand holding wheat stalks",
+                "lettering": "खाद्य एवं कृषि संघठन • FAO • 1945–1995 • FOOD AND AGRICULTURE ORGANISATION"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-004",
+            "title": "भारतीय रिझर्व बँक प्लॅटिनम जयंती • RBI PLATINUM JUBILEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2010,
+            "specifications": {
+              "metal": "Nickel brass",
+              "weight": "6 g",
+              "shape": "Round",
+              "size": "23 mm",
+              "mint": "★ Hyderabad, ♦ Mumbai / Bombay, M Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.aa.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5aa.jpg",
+                "design": "Reserve Bank of India commemorative legend",
+                "lettering": "भारतीय रिज़र्व बैंक • RESERVE BANK OF INDIA • प्लैटिनम जयंती • PLATINUM JUBILEE • 1935–2010"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-005",
+            "title": "माता व बाल आरोग्य • MOTHER AND CHILD HEALTH",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1996,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "8.97 g",
+              "shape": "Round",
+              "size": "23 mm",
+              "mint": "● Noida, ★ Hyderabad, ♦ Mumbai / Bombay"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.a.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5b.jpg",
+                "design": "Mother and child within triangular frame",
+                "lettering": "स्वस्थ मां से स्वस्थ शिशु • 1996 • MOTHER'S HEALTH IS CHILD'S HEALTH"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-006",
+            "title": "कु. कामराज • K. KAMARAJ",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2003,
+            "specifications": {
+              "metal": "Copper-nickel",
+              "weight": "8.9 g",
+              "shape": "Round",
+              "size": "23.6 mm",
+              "mint": "Kolkata / Calcutta, ♦ Mumbai / Bombay, * Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.c.jpg",
+                "design": "Ashoka Lion Capitol",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5c.jpg",
+                "design": "Bust of K. Kamaraj facing 3/4 left",
+                "lettering": "कु. कामराज • K. KAMARAJ • 1903–1975"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-007",
+            "title": "संयुक्त राष्ट्र 50 वी जयंती • UNITED NATIONS 50TH ANNIVERSARY",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1995,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai; (no mintmark) Calcutta; * Hyderabad; • Noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.c.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5d.jpg",
+                "design": "United Nations emblem with date above",
+                "lettering": "संयुक्त राष्ट्रसंघ की 50वीं जयंती • 50TH ANNIVERSARY OF UNITED NATIONS • 1995"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-008",
+            "title": "भगवान महावीर • BHAGWAN MAHAVIR",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2001,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai; * Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.c.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5e.jpg",
+                "design": "Eight-sided motif with swastika and palm symbol inside",
+                "lettering": "भगवान महावीर 2600वाँ जन्म कल्याणक • BHAGWAN MAHAVIR 2600TH JANM KALYANAK • परस्परोपग्रहो जीवानाम्"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-009",
+            "title": "डॉ. श्यामा प्रसाद मुखर्जी • DR. SYAMA PRASAD MOOKERJEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2001,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Calcutta; * Hyderabad; • Noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.c.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5f.jpg",
+                "design": "Portrait of Dr. Syama Prasad Mookerjee",
+                "lettering": "डॉ. श्यामा प्रसाद मुखर्जी • DR. SYAMA PRASAD MOOKERJEE • जन्मशती 2001 • CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-010",
+            "title": "सरदार वल्लभभाई पटेल • SARDAR VALLABHBHAI PATEL",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 1996,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai; M Mumbai Proof; Calcutta; * Hyderabad; ° Noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.c.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5g.jpg",
+                "design": "Bust of Sardar Vallabhbhai Patel facing 3/4 right",
+                "lettering": "सरदार वल्लभभाई पटेल • SARDAR VALLABHBHAI PATEL"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-011",
+            "title": "संत अलफोन्सा • SAINT ALPHONSA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1910–2009",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; ★ Hyderabad; ♦ Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5h.jpg",
+                "design": "Bust of Saint Alphonsa facing forward",
+                "lettering": "संत अलफोन्सा जन्म शताब्दी • SAINT ALPHONSA BIRTH CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-012",
+            "title": "सी. सुब्रमण्यम • C. SUBRAMANIAM",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1910–2010",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; ● Noida; ★ Hyderabad; ♦ Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5i.jpg",
+                "design": "Bust of C. Subramaniam facing 3/4 left",
+                "lettering": "सी. सुब्रमणियम जन्म शताब्दी • C. SUBRAMANIAM BIRTH CENTENARY"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-013",
+            "title": "आयकर १५० वर्षे • INCOME TAX 150 YEARS",
+            "year": "1860–2010",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; ● Noida; ★ Hyderabad; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रू. 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5j.jpg",
+                "design": "Bee over lotus with portrait of Chanakya facing right",
+                "lettering": "आयकर - भारत निर्माण के १५० वर्ष • INCOME TAX – 150 YEARS OF BUILDING INDIA • चाणक्य • CHANAKYA"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-014",
+            "title": "डॉ. राजेंद्र प्रसाद • DR. RAJENDRA PRASAD",
+            "year": "1884–2009",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai; * Hyderabad; ° Noida"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5k.jpg",
+                "design": "Bust of Dr. Rajendra Prasad facing 1/4 left",
+                "lettering": "डा. राजेंद्र प्रसाद • DR. RAJENDRA PRASAD • 125 वीं जयंती • 125 BIRTH ANNIVERSARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-015",
+            "title": "रवीन्द्रनाथ टागोर • RABINDRANATH TAGORE",
+            "year": "1861–2011",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "specifications": {
+              "mint": "Kolkata; * Hyderabad; ° Noida; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5l.jpg",
+                "design": "Bust of Rabindranath Tagore",
+                "lettering": "रबीन्द्रनाथ टैगोर • RABINDRANATH TAGORE • 150 वीं जयंती • 150 BIRTH ANNIVERSARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-016",
+            "title": "पेररिञ्जर अन्ना • PERARIGNAR ANNA",
+            "year": "1909–1969",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "specifications": {
+              "mint": "Kolkata; * Hyderabad; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5m.jpg",
+                "design": "Portrait of Perarignar Anna",
+                "lettering": "पेररिज्ञर अन्ना जन्मशती • PERARIGNAR ANNA CENTENARY • அண்ணாதுரை"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-017",
+            "title": "कॉमनवेल्थ गेम्स • COMMONWEALTH GAMES",
+            "year": 2010,
+            "itemType": "coin",
+            "country": "India",
+            "denomination": "₹5",
+            "currency": "Rupee",
+            "specifications": {
+              "mint": "Kolkata; ● Noida; ★ Hyderabad; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5n.jpg",
+                "design": "Commonwealth Games logo",
+                "lettering": "XIX COMMONWEALTH GAMES 2010 DELHI"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-018",
+            "title": "बृहदेश्वर मंदिर १००० वर्षे • BRIHADEESWARAR TEMPLE 1000 YEARS",
+            "year": 2010,
+            "itemType": "coin",
+            "country": "India",
+            "denomination": "₹5",
+            "currency": "Rupee",
+            "specifications": {
+              "mint": "Kolkata; ● Noida; ★ Hyderabad; ♦ Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.h.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • रूपये 5 RUPEES"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5o.jpg",
+                "design": "Statue of Raja Rajan I before Brihadeeswarar Temple",
+                "lettering": "1000 YEARS OF BRIHADEESWARAR TEMPLE"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-019",
+            "title": "वैष्णो देवी • VAISHNO DEVI",
+            "year": 2012,
+            "itemType": "coin",
+            "country": "India",
+            "denomination": "₹5",
+            "currency": "Rupee",
+            "specifications": {
+              "mint": "● Noida; ★ Hyderabad; ♦ Mumbai; M Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5p.jpg",
+                "design": "Shri Mata Vaishno Devi shrine",
+                "lettering": "SILVER JUBILEE"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-020",
+            "title": "मौलाना अबुल कलाम आझाद • MAULANA ABUL KALAM AZAD",
+            "year": "1888–1958",
+            "itemType": "coin",
+            "country": "India",
+            "denomination": "₹5",
+            "currency": "Rupee",
+            "specifications": {
+              "mint": "Kolkata; * Hyderabad; ° Noida; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5q.jpg",
+                "design": "Portrait of Maulana Azad",
+                "lettering": "125 BIRTH ANNIVERSARY"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-021",
+            "title": "बीएचईएल सुवर्ण जयंती • BHEL GOLDEN JUBILEE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1964–2014",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5z1.jpg",
+                "design": "BHEL emblem with Golden Jubilee theme",
+                "lettering": "BHEL • GOLDEN JUBILEE • 1964–2014"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-022",
+            "title": "आयसीएमआर शताब्दी • ICMR CENTENARY",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1911–2011",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5z2.jpg",
+                "design": "ICMR commemorative emblem",
+                "lettering": "ICMR • CENTENARY • 1911–2011"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-023",
+            "title": "कोलकाता टांकसाळ ६० वर्षे • KOLKATA MINT 60 YEARS",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1952–2012",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5z3.jpg",
+                "design": "Kolkata Mint commemorative symbol",
+                "lettering": "KOLKATA MINT • 60 YEARS • 1952–2012"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-024",
+            "title": "इलाहाबाद उच्च न्यायालय १५० वर्षे • ALLAHABAD HIGH COURT 150 YEARS",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1888–2016",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5.p.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/5z4.jpg",
+                "design": "Allahabad High Court building",
+                "lettering": "ALLAHABAD HIGH COURT • 150 YEARS • 1888–2016"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-025",
+            "title": "दांडी यात्रा ७५ वर्षे • DANDI MARCH 75 YEARS",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1930–2005",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sa.jpg",
+                "design": "Mahatma Gandhi leading Dandi March",
+                "lettering": "दांडी यात्रा के ७५ वर्ष • 75 YEARS OF DANDI MARCH"
+              }
+            }
+          },
+          {
+            "id": "IC-C-DEC-5-026",
+            "title": "पहिला स्वातंत्र्य संग्राम • FIRST WAR OF INDEPENDENCE",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1857–2007",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "-"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sb.jpg",
+                "design": "Portraits of Rani of Jhansi, Tatya Tope, Bahadur Shah Zafar II",
+                "lettering": "प्रथम स्वतंत्रता संग्राम • THE FIRST WAR OF INDEPENDENCE • 150 YEARS • 1857–2007"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-027",
+            "title": "स्टेट बँक ऑफ इंडिया • STATE BANK OF INDIA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1806–2006",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; * Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sc.jpg",
+                "design": "State Bank of India logo flanked by leaves",
+                "lettering": "भारतीय स्टेट बैंक • STATE BANK OF INDIA • 1806–2006"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-028",
+            "title": "महात्मा बसवेश्वर • MAHATMA BASAVESHWARA",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2006,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sd.jpg",
+                "design": "Bust of Mahatma Basaveshwara facing 1/4 left",
+                "lettering": "महात्मा बसवेश्वर • MAHATMA BASAVESHWARA • भक्ति - कायक - दासोह - समता"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-029",
+            "title": "लालबहादुर शास्त्री • LAL BAHADUR SHASTRI",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1904–2004",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "Kolkata; * Hyderabad; ♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5se.jpg",
+                "design": "Bust of Lal Bahadur Shastri facing 3/4 left",
+                "lettering": "लालबहादुर शास्त्री जन्मशती • LALBAHADUR SHASTRI BIRTH CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-030",
+            "title": "शहीद भगत सिंह • SHAHEED BHAGAT SINGH",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": "1907–2007",
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "★ Hyderabad"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sf.jpg",
+                "design": "Bust of Shaheed Bhagat Singh",
+                "lettering": "शहीद भगत सिंह जन्मशती • SHAHEED BHAGAT SINGH BIRTH CENTENARY"
+              }
+            }
+          },
+
+          {
+            "id": "IC-C-DEC-5-031",
+            "title": "श्री नारायण गुरुदेव • SREE NARAYANA GURUDEV",
+            "itemType": "coin",
+            "country": "India",
+            "currency": "Rupee",
+            "denomination": "₹5",
+            "year": 2006,
+            "specifications": {
+              "metal": "-",
+              "weight": "-",
+              "shape": "Round",
+              "size": "-",
+              "mint": "♦ Mumbai"
+            },
+            "design": {
+              "obverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5s.a.jpg",
+                "design": "Ashoka Lion Capital",
+                "lettering": "भारत • INDIA • सत्यमेव जयते • ₹ 5"
+              },
+              "reverse": {
+                "image": "../assets/Indian Coins/Commemorative_Coins/Decimal/5/ferritic-stainless-steel-fss/5sg.jpg",
+                "design": "Bust of Sree Narayana Guru",
+                "lettering": "जगत गुरु श्री नारायणा गुरुदेव • JAGATH GURU SREE NARAYANA GURUDEV"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

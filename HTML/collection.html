@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Browse the complete catalog of coins, notes, and error items in the NKCoinHub collection." />
+  <title>NKCoinHub - Collection</title>
+  <link rel="icon" type="image/png" href="../assets/logos/logo.png" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1B8TME37Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-J1B8TME37Z');
+  </script>
+
+  <!-- 3D Model Viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="../CSS/collection.css?v=2" />
+
+  <!-- Shared Components -->
+  <link rel="stylesheet" href="../CSS/base.css" />
+  <link rel="stylesheet" href="../CSS/header.css" />
+  <link rel="stylesheet" href="../CSS/footer.css" />
+  <script src="../JS/components.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <div id="header-placeholder"></div>
+
+  <!-- Source for header utility slot -->
+
+
+
+
+
+  <!-- ================= COLLECTION / INVENTORY SECTION ================= -->
+  <section id="collection">
+    <!-- Animated background golden flowing lines -->
+    <div class="bg-animated-lines" aria-hidden="true">
+      <svg class="bg-line-svg" viewBox="0 0 1440 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- Rich dark gold — primary accent line -->
+          <linearGradient id="goldGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="rgba(180,136,20,0)" />
+            <stop offset="20%"  stop-color="rgba(180,136,20,0.10)" />
+            <stop offset="50%"  stop-color="rgba(180,136,20,0.40)" />
+            <stop offset="80%"  stop-color="rgba(180,136,20,0.10)" />
+            <stop offset="100%" stop-color="rgba(180,136,20,0)" />
+          </linearGradient>
+          <!-- Warm amber-gold — secondary lines -->
+          <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="rgba(160,110,10,0)" />
+            <stop offset="30%"  stop-color="rgba(160,110,10,0.30)" />
+            <stop offset="60%"  stop-color="rgba(200,155,30,0.42)" />
+            <stop offset="100%" stop-color="rgba(160,110,10,0)" />
+          </linearGradient>
+          <!-- Bright light gold — highlight lines -->
+          <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="rgba(212,175,55,0)" />
+            <stop offset="25%"  stop-color="rgba(242,213,122,0.18)" />
+            <stop offset="50%"  stop-color="rgba(212,175,55,0.50)" />
+            <stop offset="75%"  stop-color="rgba(242,213,122,0.18)" />
+            <stop offset="100%" stop-color="rgba(212,175,55,0)" />
+          </linearGradient>
+          <!-- Deep bronze-gold — base lines -->
+          <linearGradient id="goldGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="rgba(140,95,5,0)" />
+            <stop offset="35%"  stop-color="rgba(170,125,20,0.35)" />
+            <stop offset="65%"  stop-color="rgba(140,95,5,0.28)" />
+            <stop offset="100%" stop-color="rgba(140,95,5,0)" />
+          </linearGradient>
+        </defs>
+
+        <!-- Wave 1 — Primary bright, thick -->
+        <g class="bg-group bg-group-1">
+          <path class="bg-wave bg-wave-1"
+            d="M -100 180 C 200 60,  500 330, 800 180 C 1100 60,  1400 330, 1700 180 C 2000 60,  2300 330, 2600 180"
+            fill="none" stroke="url(#goldGrad3)" stroke-width="3.0" />
+        </g>
+
+        <!-- Wave 2 — Amber mid -->
+        <g class="bg-group bg-group-2">
+          <path class="bg-wave bg-wave-2"
+            d="M -100 300 C 300 460, 600 140, 900 300 C 1200 460, 1500 140, 1800 300 C 2100 460, 2400 140, 2700 300"
+            fill="none" stroke="url(#goldGrad2)" stroke-width="2.4" />
+        </g>
+
+        <!-- Wave 3 — Dark bronze lower -->
+        <g class="bg-group bg-group-3">
+          <path class="bg-wave bg-wave-3"
+            d="M -100 420 C 150 260, 450 580, 750 420 C 1050 260, 1350 580, 1650 420 C 1950 260, 2250 580, 2550 420"
+            fill="none" stroke="url(#goldGrad1)" stroke-width="2.0" />
+        </g>
+
+        <!-- Wave 4 — Light gold thin top layer -->
+        <g class="bg-group bg-group-4">
+          <path class="bg-wave bg-wave-4"
+            d="M -100 540 C 250 380, 550 700, 850 540 C 1150 380, 1450 700, 1750 540 C 2050 380, 2350 700, 2650 540"
+            fill="none" stroke="url(#goldGrad3)" stroke-width="1.5" />
+        </g>
+
+        <!-- Wave 5 — Deep bronze accent -->
+        <g class="bg-group bg-group-5">
+          <path class="bg-wave bg-wave-5"
+            d="M -100 660 C 200 500, 500 820, 800 660 C 1100 500, 1400 820, 1700 660 C 2000 500, 2300 820, 2600 660"
+            fill="none" stroke="url(#goldGrad4)" stroke-width="1.8" />
+        </g>
+
+        <!-- Wave 6 — Narrow amber thread -->
+        <g class="bg-group bg-group-6">
+          <path class="bg-wave bg-wave-6"
+            d="M -100 760 C 350 600, 650 920, 950 760 C 1250 600, 1550 920, 1850 760 C 2150 600, 2450 920, 2750 760"
+            fill="none" stroke="url(#goldGrad2)" stroke-width="1.2" />
+        </g>
+      </svg>
+    </div>
+    <div class="wrapper">
+      <div class="header-text">
+        <h2>Complete Collection</h2>
+        <p>Explore coins and notes from across categories.</p>
+      </div>
+
+      <!-- Collection Toolbar -->
+      <div class="collection-toolbar">
+        <div class="toolbar-left">
+          <div class="results-count" id="resultsCount">Loading...</div>
+        </div>
+
+        <!-- Horizontal Category Navigation Tabs -->
+        <div class="category-nav" id="categoryNav">
+          <button class="category-tab active" data-category="All" onclick="selectCategoryTab('All')">All</button>
+          <button class="category-tab" data-category="Indian Coins" onclick="selectCategoryTab('Indian Coins')">Indian Coins</button>
+          <button class="category-tab" data-category="Indian Notes" onclick="selectCategoryTab('Indian Notes')">Indian Notes</button>
+          <button class="category-tab" data-category="Foreign Coins" onclick="selectCategoryTab('Foreign Coins')">Foreign Coins</button>
+          <button class="category-tab" data-category="Foreign Notes" onclick="selectCategoryTab('Foreign Notes')">Foreign Notes</button>
+          <button class="category-tab" data-category="Error Coins / Notes" onclick="selectCategoryTab('Error Coins / Notes')">Error Coins/Notes</button>
+        </div>
+
+        <div class="toolbar-right">
+          <div class="search-box">
+            <i class="fa fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search by name, year, metal...">
+          </div>
+          <button class="filter-toggle" id="filterToggleBtn" onclick="toggleFilter()">
+            <i class="fa fa-sliders"></i>
+            <span>Filter</span>
+            <span class="filter-badge" id="filterBadge" style="display:none;"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Active Filter Chips -->
+      <div id="activeFilters" class="active-filters"></div>
+
+      <div id="cards"></div>
+    </div>
+  </section>
+
+  <!-- FILTER PANEL -->
+  <div class="overlay" id="overlay" onclick="closeFilter(event)">
+    <div class="panel">
+
+      <h3>Filters</h3>
+
+      <!-- CATEGORY -->
+      <div class="filter-group dropdown open">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          Category <span class="filter-count" id="catCount"></span> <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-content">
+          <label><input type="checkbox" class="cat" value="Indian Coins"> Indian Coins</label>
+          <label><input type="checkbox" class="cat" value="Indian Notes"> Indian Notes</label>
+          <label><input type="checkbox" class="cat" value="Foreign Coins"> Foreign Coins</label>
+          <label><input type="checkbox" class="cat" value="Foreign Notes"> Foreign Notes</label>
+          <label><input type="checkbox" class="cat" value="Error Coins / Notes"> Error Coins / Notes</label>
+        </div>
+      </div>
+
+      <!-- COIN TYPE -->
+      <div class="filter-group dropdown" id="coinTypeBox">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          Coin Type <span class="filter-count" id="coinTypeCount"></span> <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-content">
+          <label><input type="checkbox" class="coinType" value="Regular"> Regular</label>
+          <label><input type="checkbox" class="coinType" value="Commemorative"> Commemorative</label>
+        </div>
+      </div>
+
+      <!-- SERIES -->
+      <div class="filter-group dropdown" id="seriesBox">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          Series <span class="filter-count" id="seriesCount"></span> <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-content">
+          <label><input type="checkbox" class="series" value="Pre-Decimal"> Pre-Decimal</label>
+          <label><input type="checkbox" class="series" value="Decimal"> Decimal</label>
+        </div>
+      </div>
+
+      <!-- DENOMINATION -->
+      <div class="filter-group dropdown" id="denBox">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          Denomination <span class="filter-count" id="denCount"></span> <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-content" id="denOptions">
+        </div>
+      </div>
+
+      <!-- COUNTRY -->
+      <div class="filter-group dropdown" id="countryBox">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          Country <span class="filter-count" id="countryCount"></span> <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-content" id="countryOptions"></div>
+      </div>
+
+      <div class="actions">
+        <button class="apply" onclick="apply()">Apply</button>
+        <button class="clear" onclick="clearAll()">Clear</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ===== END REPLACED Inventory section ===== -->
+
+  <div id="itemModal" class="item-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content"></div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <div id="footer-placeholder"></div>
+
+  <!-- <script src="scripts.js"></script> -->
+  <!-- JS FILES (ORDER MATTERS) -->
+
+  <script src="../JS/main.js"></script>
+  <script src="../JS/collection.js?v=2"></script>
+
+
+</body>
+
+</html>

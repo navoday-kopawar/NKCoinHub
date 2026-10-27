@@ -1,0 +1,114 @@
+/* ================= ROOT & BASE ================= */
+
+:root {
+  /* Colors */
+  --p-dark: #205072;
+  --p-mid: #329D9C;
+  --accent: #56C596;
+  --accent-light: #7BE495;
+  --bg-light: #f4f9f4; 
+  --text-light: #e6fbf6;
+  --card-light: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+  --shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  --gradient: linear-gradient(135deg, var(--p-dark) 0%, var(--p-mid) 100%);
+
+  /* Typography */
+  --ff-serif: 'Playfair Display', serif;
+  --ff-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --fs-base: 16px;
+  --fs-h1: clamp(2.5rem, 8vw, 4.5rem);
+  --fs-h2: clamp(1.8rem, 5vw, 2.8rem);
+  --fs-h3: clamp(1.4rem, 3vw, 1.8rem);
+  --fs-body: 1.05rem;
+  
+  --lh-tight: 1.1;
+  --lh-base: 1.7;
+  
+  --ls-narrow: -0.02em;
+  --ls-wide: 0.05em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-sans);
+  background:
+    radial-gradient(
+        circle at top,
+        rgba(123, 228, 149, 0.2),
+        transparent 65%
+    ),
+    linear-gradient(
+        180deg,
+        var(--p-dark),
+        var(--p-mid)
+    );
+  color: var(--text-light);
+  line-height: var(--lh-base);
+  font-size: var(--fs-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 84px;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .serif {
+  font-family: var(--ff-serif);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-narrow);
+  color: var(--text-light); /* Default to light for consistency */
+}
+
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+
+p {
+  font-size: var(--fs-body);
+  margin-bottom: 1.5rem;
+  color: rgba(230, 251, 246, 0.85); /* var(--text-light) with opacity */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+/* ================= TYPOGRAPHY UTILITIES ================= */
+
+.reveal-text {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subheading {
+  font-family: var(--ff-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  display: block;
+}

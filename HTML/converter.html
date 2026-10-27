@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKCoinHub - Currency Converter</title>
+    <link rel="icon" type="image/png" href="../assets/logos/logo.png" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1B8TME37Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-J1B8TME37Z');
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Shared Components -->
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+
+    <!-- Page Specific Styles -->
+    <link rel="stylesheet" href="../CSS/converter.css">
+
+    <script src="../JS/components.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <div id="header-placeholder"></div>
+
+    <main class="converter-page">
+        <div class="card">
+            <div class="top-bar">
+                <div id="datetime"></div>
+            </div>
+            <div class="title">
+                <i class="fa-solid fa-bolt"></i> Currency Converter
+            </div>
+
+            <div class="input-grid">
+                <div class="amount-group">
+                    <div class="label">AMOUNT</div>
+                    <input id="amount" value="1" type="number">
+                    <div id="amountError" style="color:#d85656;font-size:12px;margin-top:-5px;position:absolute;"></div>
+                </div>
+
+                <div class="converter-inputs">
+                    <div class="box" id="fromBox">
+                        <div class="box-left">
+                            <img id="fromFlag" alt="From">
+                            <div class="box-text">
+                                <span id="fromCode"></span>
+                                <small id="fromName"></small>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                    </div>
+
+                    <div class="swap" id="swapBtn">
+                        <i class="fa-solid fa-right-left"></i>
+                    </div>
+
+                    <div class="box" id="toBox">
+                        <div class="box-left">
+                            <img id="toFlag" alt="To">
+                            <div class="box-text">
+                                <span id="toCode"></span>
+                                <small id="toName"></small>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <div id="rate" class="rate"></div>
+                <div id="result" class="result">0</div>
+            </div>
+
+            <a href="currencycalculater.html" class="advanced-btn">
+                <div class="btn-icon">
+                    <i class="fa-solid fa-comment-dots animated-cloud"></i>
+                </div>
+                <span>For advanced currency calculation</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input class="search" id="search" placeholder="Search currency...">
+                </div>
+                <button class="close-modal" id="closeModalBtn"><i class="fa-solid fa-times"></i></button>
+            </div>
+            <div id="list"></div>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JS FILES -->
+    <script src="../JS/main.js"></script>
+    <script src="../JS/converter.js"></script>
+
+</body>
+
+</html>

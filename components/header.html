@@ -1,0 +1,50 @@
+<header class="header">
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <a href="{{BASE_PATH}}/index.html" class="logo">
+            <img src="https://i.ibb.co/bRR1YmHm/logo.png" alt="NKCoinHub Logo" class="logo-img">
+            <span class="logo-text">NKCoinHub</span>
+        </a>
+    </div>
+
+    <!-- Navigation Section -->
+    <nav class="nav-container" aria-hidden="true">
+        <div class="nav-header">
+            <a href="{{BASE_PATH}}/index.html" class="nav-logo">
+                <img src="https://i.ibb.co/bRR1YmHm/logo.png" alt="Logo" class="nav-logo-img">
+                <span class="nav-logo-text">NKCoinHub</span>
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="{{BASE_PATH}}/index.html" data-page="index">Home</a></li>
+            <li class="nav-item"><a href="{{BASE_PATH}}/HTML/collection.html" data-page="collection">Collection</a></li>
+            <li class="nav-item"><a href="{{BASE_PATH}}/HTML/about.html" data-page="about">About Us</a></li>
+            <li class="nav-item"><a href="{{BASE_PATH}}/index.html#contact">Contact</a></li>
+            <li class="nav-item nav-converter-mobile">
+                <a href="{{BASE_PATH}}/HTML/converter.html" class="converter-link" data-page="converter">
+                    <span class="converter-text">Converter</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Utility Section -->
+    <div class="header-utility-wrapper">
+        <div class="header-converter">
+            <a href="{{BASE_PATH}}/HTML/converter.html" class="converter-link">
+                <span class="converter-text">Converter</span>
+            </a>
+        </div>
+        <div id="header-extra-slot">
+            <!-- Search and Filter tools will be injected here on the collection page -->
+        </div>
+    </div>
+
+    <!-- Mobile Toggle -->
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+</header>
+<div id="navOverlay" class="nav-overlay" aria-hidden="true"></div>

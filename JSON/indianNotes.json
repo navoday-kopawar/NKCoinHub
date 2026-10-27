@@ -1,0 +1,758 @@
+{
+  "category": "Indian Notes",
+  "items": [
+
+
+{
+      "id": "IN-1-001",
+      "title": "₹1 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹1",
+      "year": 1977,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_obv_21Q600519.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_rev_21Q600519.png", "design": "-" }
+      }
+    },
+
+{
+      "id": "IN-1-002",
+      "title": "₹1 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹1",
+      "year": 2015,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_obv_29A557792.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_rev_29A557792.png", "design": "-" }
+      }
+    },
+
+
+
+{
+      "id": "IN-1-003",
+      "title": "₹1 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹1",
+      "year": 2016,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_obv_68A562645.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_rev_68A562645.png", "design": "-" }
+      }
+    },
+
+
+{
+      "id": "IN-1-004",
+      "title": "₹1 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹1",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_obv_55B309044.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/1/ind_notes_1rs_rev_55B309044.png", "design": "-" }
+      }
+    },
+
+
+
+
+{
+      "id": "IN-2-001",
+      "title": "₹2 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹2",
+      "year": 0,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_obv_92M51923.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_rev_92M51923.png", "design": "-" }
+      }
+    },
+
+{
+      "id": "IN-2-002",
+      "title": "₹2 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹2",
+      "year": 0,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_obv_44D789671.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_rev_44D789671.png", "design": "-" }
+      }
+    },
+{
+      "id": "IN-2-003",
+      "title": "₹2 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹2",
+      "year": 0,
+      "noteDetails": {
+        "seriesName": "-",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_obv_63B702208.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/2/ind_notes_2rs_rev_63B702208.png", "design": "-" }
+      }
+    },
+
+
+
+
+
+{
+      "id": "IN-5-001",
+      "title": "₹5 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹5",
+      "year": 0,
+      "noteDetails": {
+        "seriesName": "5QA 174043",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_obv_5QA174043.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_rev_5QA174043.png", "design": "-" }
+      }
+    },
+
+
+{
+      "id": "IN-5-002",
+      "title": "₹5 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹5",
+      "year": 2015,
+      "noteDetails": {
+        "seriesName": "7AU 965648",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_obv_7AU965648.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_rev_7AU965648.png", "design": "-" }
+      }
+    },
+
+
+
+
+{
+      "id": "IN-5-003",
+      "title": "₹5 Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹5",
+      "year": 2024,
+      "noteDetails": {
+        "seriesName": "5RL 090935",
+        "prefixAndSerial": "-"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_obv_5RL090935.png", "design": "-" },
+        "reverse": { "image": "../assets/Indian Notes/5/ind_notes_5rs_rev_5RL090935.png", "design": "-" }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+      "id": "IN-100-000",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "JRD 208334"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_JRD208334.jpg", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_JRD208334.jpg", "design": "Rani ki Vav" }
+      }
+    },
+
+    {
+      "id": "IN-100-001",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "8TU 020437"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_8TU020437.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_8TU020437.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-002",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "1TV 070644"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_1TV070644.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_1TV070644.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-003",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "3DS 050772"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_3DS050772.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_3DS050772.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-004",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "1FT 110963"
+      },
+      "design": {
+      "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_1FT110963.png", "design": "Mahatma Gandhi" },
+     "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_1FT110963.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-005",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "2TP 261145"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_2TP261145.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_2TP261145.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-006",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "5PE 311000"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_5PE311000.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_5PE311000.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-007",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "5GN 111293"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_5GN111293.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_5GN111293.png", "design": "Rani ki Vav" }
+      }
+    },
+    {
+      "id": "IN-100-008",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "1AD 181260"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_1AD181260.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_1AD181260.png", "design": "Rani ki Vav" }
+      }
+    },
+
+
+
+
+{
+      "id": "IN-100-009",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "2AL 250726"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_2AL250726.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_2AL250726.png", "design": "Rani ki Vav" }
+      }
+    },
+
+
+
+
+{
+      "id": "IN-100-010",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "8HW 000442"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_8HW000442.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_8HW000442.png", "design": "Rani ki Vav" }
+      }
+    },
+
+
+{
+      "id": "IN-100-011",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "9GR 280051"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_9GR280051.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_9GR280051.png", "design": "Rani ki Vav" }
+      }
+    },
+
+{
+      "id": "IN-100-012",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "8TU 230596"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_8TU230596.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_8TU230596.png", "design": "Rani ki Vav" }
+      }
+    },
+
+
+{
+      "id": "IN-100-011",
+      "title": "₹100 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹100",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "7DW 000018"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_obv_7DW000018.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/100/ind_notes_100rs_rev_7DW000018.png", "design": "Rani ki Vav" }
+      }
+    },
+
+
+
+
+
+
+
+    {
+      "id": "IN-200-001",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "0CP 040157"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_1.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_1.png", "design": "Sanchi Stupa" }
+      }
+    },
+    {
+      "id": "IN-200-002",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "0DN 657860"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_2.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_2.png", "design": "Sanchi Stupa" }
+      }
+    },
+    {
+      "id": "IN-200-003",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "6CS 887862"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_3.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_3.png", "design": "Sanchi Stupa" }
+      }
+    },
+    {
+      "id": "IN-200-004",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "2KR 080943"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_4.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_4.png", "design": "Sanchi Stupa" }
+      }
+    },
+    {
+      "id": "IN-200-005",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "4HH 070322"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_5.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_5.png", "design": "Sanchi Stupa" }
+      }
+    },
+    {
+      "id": "IN-200-006",
+      "title": "₹200 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹200",
+      "year": 2017,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "4AL 080790"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_obv_6.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/200/ind_notes_200rs_rev_6.png", "design": "Sanchi Stupa" }
+      }
+    },
+
+
+
+
+
+
+
+{
+      "id": "IN-500-000",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "0UR 234461"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_0.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_0.png", "design": "Red Fort" }
+      }
+    },
+
+    {
+      "id": "IN-500-001",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "9KD 080310"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_1.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_1.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-002",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "6BN 110354"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_2.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_2.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-003",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "6QA 300405"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_3.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_3.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-004",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "3GR 070643"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_4.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_4.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-005",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "7NN 030367"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_5.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_5.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-006",
+      "title": "₹500 Mahatma Gandhi Series Star Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "1CC*943267"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_6.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_6.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-007",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "4LU 230304"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_7.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_7.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-008",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "5PH 241023"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_8.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_8.png", "design": "Red Fort" }
+      }
+    },
+    {
+      "id": "IN-500-009",
+      "title": "₹500 Mahatma Gandhi Series Note",
+      "itemType": "note",
+      "country": "India",
+      "currency": "Rupee",
+      "denomination": "₹500",
+      "year": 2018,
+      "noteDetails": {
+        "seriesName": "Mahatma Gandhi New Series",
+        "prefixAndSerial": "3NG 020228"
+      },
+      "design": {
+        "obverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_obv_9.png", "design": "Mahatma Gandhi" },
+        "reverse": { "image": "../assets/Indian Notes/500/ind_notes_500rs_rev_9.png", "design": "Red Fort" }
+      }
+    }
+  ]
+}

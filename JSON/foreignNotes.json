@@ -1,0 +1,207 @@
+{
+  "category": "Foreign Notes",
+  "items": [
+    {
+      "id": "FN-001",
+      "title": "United States $1 Federal Reserve Note",
+      "itemType": "note",
+      "country": "United States of America",
+      "currency": "United States Dollar ($)",
+      "denomination": "$1",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_E_Note_obv.png",
+          "design": "The front side of this standard Series 2013 United States $1 bill features a central portrait of George Washington. It displays a green Treasury Seal on the right and a black Federal Reserve Bank Seal on the left with the letter 'E', indicating it was issued in Richmond, Virginia. The note is printed with the green serial number E 93235816 J on a durable fabric paper blend composed of 75% cotton and 25% linen."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_E_Note_rev.png",
+          "design": "The back side of the bill focuses on national symbols, centered around the large word 'ONE' and the official motto 'In God We Trust.' It prominently features the two circular faces of the Great Seal of the United States. The left circle displays an unfinished pyramid topped by the Eye of Providence, while the right circle depicts the American bald eagle holding an olive branch and arrows."
+        }
+      }
+    },
+
+
+ {
+      "id": "FN-002",
+      "title": "United States $1 Federal Reserve Note",
+      "itemType": "note",
+      "country": "United States of America",
+      "currency": "United States Dollar ($)",
+      "denomination": "$1",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_G_Note_obv.png",
+          "design": "The front side features a central portrait of George Washington, the first President of the United States. This specific note belongs to Series 2001 and is signed by Treasurer Rosario Marin and Secretary of the Treasury Paul H. O'Neill. The black circular seal on the left contains a large 'G', which stands for the Federal Reserve Bank of Chicago, Illinois. The matching green serial number, G 26052774 B, is printed twice, framing the portrait alongside the green Department of the Treasury seal on the right."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_G_Note_rev.png",
+          "design": "The back side features the word 'ONE' prominently in the center, overlaid with the national motto 'IN GOD WE TRUST'. Flanking the text are the two sides of the Great Seal of the United States. The left circle displays an unfinished pyramid topped by the Eye of Providence, symbolizing divinity and strength. The right circle features an American bald eagle holding an olive branch and arrows, representing peace and war, beneath a constellation of 13 stars."
+        }
+      }
+    },
+
+
+ {
+      "id": "FN-003",
+      "title": "United States $1 Federal Reserve Note",
+      "itemType": "note",
+      "country": "United States of America",
+      "currency": "United States Dollar ($)",
+      "denomination": "$1",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_J_Note_obv.png",
+          "design": "The front side of this standard United States $1 bill features a central portrait of George Washington and belongs to Series 2017 A. It displays a green Treasury Seal on the right and a black Federal Reserve Bank Seal on the left with the letter 'J', indicating it was issued by the bank in Kansas City, Missouri. The note is printed with the unique green serial number J 65510459 A on the standard security paper blend composed of 75% cotton and 25% linen."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_US_$1_J_Note_rev.png",
+          "design": "The back side of the bill focuses on national iconography, centered around the large word 'ONE' and the official motto 'In God We Trust.' It prominently features the two circular faces of the Great Seal of the United States. The left circle displays an unfinished pyramid topped by the Eye of Providence, while the right circle depicts the American bald eagle clutching an olive branch and arrows."
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "FN-004",
+      "title": "Malaysia 1 Ringgit Note",
+      "itemType": "note",
+      "country": "Malaysia",
+      "currency": "Malaysian Ringgit (RM)",
+      "denomination": "1 Ringgit",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_1_Malaysian_Ringgit(RM1)_obv.png",
+          "design": "The portrait of Malaysia's first Supreme Head of State, Tuanku Abdul Rahman, alongside the signature of former Governor Dr.Zenti Akhtar Aziz and the official face value text of  1 Ringgit."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_1_Malaysian_Ringgit(RM1)_rev.png",
+          "design": "Traditional Wau Bulan moon-kite set adainst the science mountain backdrops of Mount kinabalu and Mount Mumu, alongside the central bank's Kijang(deer) logo."
+        }
+      }
+    },
+
+ {
+      "id": "FN-005",
+      "title": "100 Sri Lankan Rupee banknote",
+      "itemType": "note",
+      "country": "Sri Lanka",
+      "currency": "Sri Lankan Rupee",
+      "denomination": "100 Sri Lankan Rupee",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_100_Sri_Lankan_Rupee_obv.png",
+          "design": "Norochcholai Coal Power Plant Project at the center, with the Laxapana waterfall in the background. It displays an endemic bird, the Sri Lankan Orange Billed Babbler (Turdoides rufescens), on the right side and an Autumn Leaf butterfly (Doleschallia bisaltidae)"
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_100_Sri_Lankan_Rupee_rev.png",
+          "design": "Notably oriented vertically, featuring a traditional Mridangam drummer playing his instrument alongside a Bharatanatyam dancer. The top-right shows a historical Naga guard-stone motif."
+        }
+      }
+    },
+    
+ {
+      "id": "FN-006",
+      "title": "20 Sri Lankan Rupee banknote",
+      "itemType": "note",
+      "country": "Sri Lanka",
+      "currency": "Sri Lankan Rupee",
+      "denomination": "20 Sri Lankan Rupee",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_20_Sri_Lankan_Rupee_obv.png",
+          "design": "The Port of Colombo with cargo ships and cranes to symbolize economic development. On the right sits an endemic Sri Lanka Serendib Scops Owl, while a Baronet butterfly is shown on the bottom left."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_20_Sri_Lankan_Rupee_rev.png",
+          "design": "A traditional Ves Netuma dancer alongside a Geta Bera drummer celebrating Kandyan performance art. A historic 'Muragala' guard stone carved with a prosperity pot is visible in the background."
+        }
+      }
+    },
+    
+{
+      "id": "FN-007",
+      "title": " Thailand 20 Baht polymer banknote (Series 17),",
+      "itemType": "note",
+      "country": "Thailand",
+      "currency": "Thai Baht",
+      "denomination": "20 Baht",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_Thailand_20_Baht_obv.png",
+          "design": "The portrait of King Maha Vajiralongkorn (King Rama X), the current reigning monarch of Thailand, depicted in the ceremonial uniform of the Commander of the Royal Thai Air Force"
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_Thailand_20_Baht_rev.png",
+          "design": "Historical portraits of the first two Chakri dynasty monarchs: King Rama I (Phra Buddha Yodfa Chulaloke) on the left and King Rama II (Phra Buddha Loetla Nabhalai) on the right, set against a background depicting the Grand Palace in Bangkok."
+        }
+      }
+    },
+
+
+
+    {
+      "id": "FN-008",
+      "title": "Nepal 5 Rupees Note",
+      "itemType": "note",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "5 Rupees",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_nepal_5_rupees_note_obv.png",
+          "design": "The front of the banknote features a detailed depiction of Mount Everest (Chomolungma) on the left side and the historic Taleju Temple of Kathmandu in the center. The top prominently displays the issuer's name in Devanagari script alongside the note's face value of five rupees. A watermark window containing the national flower, the Rhododendron, sits on the right side."
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_nepal_5_rupees_note_rev.png",
+          "design": "The back of the banknote showcases two Himalayan yaks grazing with the snow-capped Himalayan mountain range stretching across the background. It features the official English lettering of the central bank, 'NEPAL RASTRA BANK,' the denomination 'RUPEES FIVE,' and the specific Gregorian calendar year marked as '2012 A.D' at the bottom center."
+        }
+      }
+    },
+    {
+      "id": "FN-009",
+      "title": "Nepal 10 Rupees Note",
+      "itemType": "note",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "10 Rupees",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_nepal_10_rupees_note_obv.png",
+          "design": "The front of the banknote prominently features Mount Everest on the left side and an intricate illustration of Garuda on a pillar in the center, which stands outside the Changu Narayan Temple. The text at the top displays the central bank's name in Devanagari script next to the numerical value. The right section features a clean watermark window displaying the national flower, the Rhododendron"
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_nepal_10_rupees_note_rev.png",
+          "design": "The back of the banknote showcases three blackbucks (antelopes) grazing in a lush plain with trees and mountains visible in the background. The text features the official English registration 'NEPAL RASTRA BANK,' the denomination 'RUPEES TEN,' and the specific Gregorian print year labeled as '2012 A.D.' at the bottom center boundary."
+        }
+      }
+    },
+    {
+      "id": "FN-010",
+      "title": "Nepal 50 Rupees Note",
+      "itemType": "note",
+      "country": "Nepal",
+      "currency": "Nepalese Rupee (रू)",
+      "denomination": "50 Rupees",
+      "design": {
+        "obverse": {
+          "image": "../assets/Foreign Notes/for_nepal_50_rupees_note_obv.png",
+          "design": "The front of the banknote features Mount Everest on the left side and an illustration of the historic Janaki Temple of Janakpur in the center. The top section displays the central bank's name in Devanagari script next to the numeric value. The right section features a clean watermark window displaying the national flower, the Rhododendron"
+        },
+        "reverse": {
+          "image": "../assets/Foreign Notes/for_nepal_50_rupees_note_rev.png",
+          "design": "The back of the banknote showcases a single snow leopard standing against a snow-capped Himalayan mountain landscape. The text features the official English registration 'NEPAL RASTRA BANK,' the denomination 'RUPEES FIFTY,' and the specific Gregorian print year labeled as '2019 A.D.' at the bottom center boundary."
+        }
+      }
+    }
+  ]
+}
+

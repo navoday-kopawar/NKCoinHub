@@ -1,0 +1,31 @@
+{
+  "category": "Error Coins / Notes",
+  "subTypes": {
+    "coins": {
+      "label": "Error Coins",
+      "items": [
+        {
+          "id": "EI-C-001", "title": "₹10 Double Strike Coin", "itemType": "coin", "country": "India", "currency": "Rupee", "denomination": "₹10",
+          "errorDetails": { "errorType": "Double Strike", "description": "Coin struck twice causing overlapping design" },
+          "design": { "obverse": { "image": "https://i.ibb.co/bRR1YmHm/logo.png" }, "reverse": { "image": "https://i.ibb.co/RTzgyRy8/logo2.png" } }
+        }
+      ]
+    },
+    "notes": {
+      "label": "Error Notes",
+      "items": [
+        {
+          "id": "EI-N-001", "title": "₹500 Misaligned Print Note", "itemType": "note", "country": "India", "currency": "Rupee", "denomination": "₹500",
+          "errorDetails": { "errorType": "Misaligned Printing", "description": "Print shifted off-center" },
+          "design": { "obverse": { "image": "https://i.ibb.co/bRR1YmHm/logo.png" }, "reverse": { "image": "https://i.ibb.co/RTzgyRy8/logo2.png" } }
+        }
+      ]
+    }
+  }
+}
+
+
+
+
+
+

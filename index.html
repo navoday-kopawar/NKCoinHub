@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore a curated collection of rare and historical coins & currency notes from across the world." />
+  <title>NKCoinHub - Home</title>
+  <link rel="icon" type="image/png" href="./assets/logos/logo.png" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1B8TME37Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-J1B8TME37Z');
+  </script>
+
+  <!-- 3D Model Viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="./CSS/styles.css" />
+  
+  <!-- Shared Components -->
+  <link rel="stylesheet" href="./CSS/base.css" />
+  <link rel="stylesheet" href="./CSS/header.css" />
+  <link rel="stylesheet" href="./CSS/footer.css" />
+  <script src="./JS/components.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <div id="header-placeholder"></div>
+
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <span class="hero-intro">Welcome to NKCoinHub</span>
+      <h1 class="hero-headline">Where Passion Meets Collection</h1>
+      <p class="hero-description">
+        Explore a curated collection of rare and historical coins & currency notes
+        from across the world. Each piece tells a unique story of culture, history,
+        and artistry.
+      </p>
+      <a href="./HTML/collection.html" class="hero-btn">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <span>Explore Collection</span>
+      </a>
+    </div>
+
+    <div class="hero-image">
+      <!-- Floating Decorations -->
+      <div class="hero-decorations">
+        <div class="decor-item coin-1"><i class="fa-solid fa-coins"></i></div>
+        <div class="decor-item note-1"><i class="fa-solid fa-money-bill-1"></i></div>
+        <div class="decor-item coin-2"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+        <div class="decor-item note-2"><i class="fa-solid fa-money-bill-wave"></i></div>
+        <div class="decor-item coin-3"><i class="fa-solid fa-coins"></i></div>
+      </div>
+      <model-viewer src="./assets/logos/BlackLogo2.glb" auto-rotate rotation-per-second="30deg" camera-controls
+        disable-zoom shadow-intensity="1"
+        style="width:100%; height:300px; background:transparent; border-radius:24px;"></model-viewer>
+    </div>
+    
+  </section>
+  
+  <!-- ================= PLATFORM STATS BAR ================= -->
+  <section class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-number">1k+</span>
+      <span class="stat-title">Collection Items</span>
+    </div>
+    <div class="divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">50+</span>
+      <span class="stat-title">Countries Covered</span>
+    </div>
+    <div class="divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">24/7</span>
+      <span class="stat-title">Global Access</span>
+    </div>
+  </section>
+
+  <!-- ================= HISTORY IN YOUR HANDS ================= -->
+  <section class="about-intro">
+    <div class="about-content">
+      <span class="subheading">Our Mission</span>
+      <h2>A Legacy of Numismatic Excellence</h2>
+      <p>
+        NKCoinHub is more than just an archive; it is a digital sanctuary for collectors 
+        and historians alike. We bridge the gap between ancient currency and modern 
+        appreciation, preserving the stories that coins and notes tell about our shared 
+        human journey.
+      </p>
+      <div class="about-features">
+        <div class="feature">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Authentic Research</span>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-star"></i>
+          <span>Rare Mintings</span>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <span>Historical Context</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= COLLECTION CATEGORIES ================= -->
+  <section id="collection-categories" class="home-collection">
+    <div class="section-header reveal-text">
+      <span class="subheading">Curated Selection</span>
+      <h2>Browse Categories</h2>
+      <p>Discover the richness of numismatics through our organized categories.</p>
+    </div>
+
+    <div class="category-arc-container">
+      <!-- Indian Coins -->
+      <div class="category-card indian-coins reveal-text">
+        <div class="card-icon"><i class="fa-solid fa-coins"></i></div>
+        <h3>Indian Coins</h3>
+        <p>From ancient dynasties to modern republic issues.</p>
+        <a href="./HTML/collection.html?cat=Indian%20Coins" class="read-more">Read More</a>
+      </div>
+      
+      <!-- Indian Notes -->
+      <div class="category-card indian-notes reveal-text">
+        <div class="card-icon"><i class="fa-solid fa-money-bill-1"></i></div>
+        <h3>Indian Notes</h3>
+        <p>Rare paper currency and commemorative banknotes.</p>
+        <a href="./HTML/collection.html?cat=Indian%20Notes" class="read-more">Read More</a>
+      </div>
+
+      <!-- Foreign Coins -->
+      <div class="category-card foreign-coins reveal-text">
+        <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+        <h3>Foreign Coins</h3>
+        <p>Treasures from across borders and continents.</p>
+        <a href="./HTML/collection.html?cat=Foreign%20Coins" class="read-more">Read More</a>
+      </div>
+
+      <!-- Foreign Notes -->
+      <div class="category-card foreign-notes reveal-text">
+        <div class="card-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+        <h3>Foreign Notes</h3>
+        <p>A global journey through paper currency.</p>
+        <a href="./HTML/collection.html?cat=Foreign%20Notes" class="read-more">Read More</a>
+      </div>
+
+      <!-- Error Items -->
+      <div class="category-card error-items reveal-text">
+        <div class="card-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <h3>Error Items</h3>
+        <p>Unique misprints and minting anomalies.</p>
+        <a href="./HTML/collection.html?cat=Error%20Coins%20/%20Notes" class="read-more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ================= TRENDING COLLECTIONS ================= -->
+  <section class="trending-section">
+    <div class="section-header">
+      <span class="subheading">Weekly Spotlight</span>
+      <h2>Trending Discoveries</h2>
+      <p>A closer look at the most viewed and historically significant items this month.</p>
+    </div>
+    <div class="trending-grid">
+      <div class="trending-card">
+        <div class="trending-img-container">
+          <img src="https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=800" alt="Ancient Coin">
+          <span class="trending-badge">Historical</span>
+        </div>
+        <div class="trending-info">
+          <h3>Imperial Gold Denarius</h3>
+          <p>Rome, 1st Century AD</p>
+        </div>
+      </div>
+      <div class="trending-card">
+        <div class="trending-img-container">
+          <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800" alt="Banknote">
+          <span class="trending-badge">Rare Note</span>
+        </div>
+        <div class="trending-info">
+          <h3>East India Company Tenner</h3>
+          <p>Calcutta, 1850s Edition</p>
+        </div>
+      </div>
+      <div class="trending-card">
+        <div class="trending-img-container">
+          <img src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&q=80&w=800" alt="Commemorative">
+          <span class="trending-badge">Modern</span>
+        </div>
+        <div class="trending-info">
+          <h3>Olympic Commemorative</h3>
+          <p>Silver Proof Issue, 1984</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <div id="footer-placeholder"></div>
+
+
+  <script src="./JS/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NKCoinHub - Currency Calculator</title>
+  <link rel="icon" type="image/png" href="../assets/logos/logo.png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Shared Components -->
+  <link rel="stylesheet" href="../CSS/base.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link rel="stylesheet" href="../CSS/footer.css">
+
+  <!-- Page Specific Styles (Reusing converter.css theme) -->
+  <link rel="stylesheet" href="../CSS/converter.css">
+
+  <script src="../JS/components.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+
+  <style>
+    /* Custom tweaks for multi-currency calculator keeping within the theme */
+    .calc-section {
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .calc-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    /* Override base button styles from converter.css for smaller/utility buttons */
+    button.swap-btn-small,
+    button.del-btn,
+    button.add-btn,
+    button.refresh-btn {
+      padding: 0;
+      margin: 0;
+      width: auto;
+      border-radius: 0;
+      box-shadow: none;
+      font-weight: normal;
+      background: none;
+    }
+
+    select.currency-select {
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 15px;
+      border: 2px solid transparent;
+      background: #f1f8f5;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--p-dark);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      appearance: none;
+      /* Custom dropdown arrow */
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+      background-size: 16px;
+    }
+
+    select.currency-select:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: white;
+      box-shadow: 0 0 0 4px rgba(86, 197, 150, 0.1);
+    }
+
+    .row-input {
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 15px;
+      border: 2px solid transparent;
+      background: #f1f8f5;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--p-dark);
+      margin-bottom: 0;
+      transition: all 0.3s ease;
+    }
+
+    .row-input:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: white;
+      box-shadow: 0 0 0 4px rgba(86, 197, 150, 0.1);
+    }
+
+    .multi-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .multi-row>* {
+      flex: 1;
+    }
+
+    button.del-btn {
+      flex: 0 0 44px;
+      height: 44px;
+      background: #ffeaea;
+      color: #d85656;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: all 0.2s ease;
+    }
+
+    button.del-btn:hover {
+      background: #ffd6d6;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(216, 86, 86, 0.2);
+    }
+
+    button.add-btn {
+      padding: 10px 20px;
+      background: #eaf6f1;
+      color: var(--accent);
+      font-size: 14px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+
+    button.add-btn:hover {
+      background: var(--accent);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(86, 197, 150, 0.3);
+    }
+
+    button.swap-btn-small {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: white;
+      border: 1px solid var(--border);
+      color: var(--p-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 25px;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    button.swap-btn-small:hover {
+      transform: rotate(180deg) scale(1.1);
+    }
+
+    button.refresh-btn {
+      background: transparent;
+      color: var(--p-mid);
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    button.refresh-btn:hover {
+      color: var(--accent);
+      transform: rotate(90deg);
+    }
+
+    button.action-btn {
+      margin-top: 25px;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 15px;
+      flex: 0 0 auto !important;
+      width: auto;
+    }
+
+    .calc-result {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #f8fbf9 0%, #eaf6f1 100%);
+      border: 1px solid var(--border);
+      text-align: center;
+      font-size: 14px;
+      color: var(--p-mid);
+      font-weight: 600;
+    }
+
+    .calc-result strong {
+      display: block;
+      font-size: 32px;
+      color: var(--p-dark);
+      margin-top: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .popular-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    @media (min-width: 768px) {
+      .popular-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .pop-card {
+      background: #f1f8f5;
+      padding: 15px;
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .pop-card:hover {
+      background: #eaf6f1;
+      border-color: var(--p-mid);
+      transform: translateY(-2px);
+    }
+
+    .pop-card .pop-flag {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .pop-card .pop-rate {
+      font-weight: 800;
+      color: var(--accent);
+      font-size: 18px;
+      font-family: monospace;
+    }
+
+    .pop-card .pop-code {
+      font-size: 12px;
+      color: #666;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 3px;
+    }
+
+    .flex-row {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .flex-row>div {
+      flex: 1 1 calc(50% - 30px);
+      min-width: 120px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--p-dark);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .section-title i {
+      color: var(--accent);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .header-top .title {
+      margin-bottom: 0;
+    }
+
+    .live-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #f1f8f5;
+      padding: 8px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+    }
+
+    .live-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: var(--accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.4;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Mobile specific adjustments */
+    @media (max-width: 600px) {
+      .flex-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+      }
+
+      button.swap-btn-small {
+        align-self: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        transform: rotate(90deg);
+      }
+
+      button.swap-btn-small:hover {
+        transform: rotate(270deg) scale(1.1);
+      }
+
+      button.action-btn {
+        margin-top: 10px;
+        width: 100%;
+      }
+
+      .multi-row {
+        flex-wrap: wrap;
+      }
+
+      .multi-row .row-input {
+        flex: 1 1 100%;
+      }
+
+      .multi-row .currency-select {
+        flex: 1 1 calc(100% - 55px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <div id="header-placeholder"></div>
+
+  <main class="converter-page">
+    <div class="card">
+      <div class="header-top">
+        <div class="title">
+          <i class="fa-solid fa-calculator"></i> Calculator
+        </div>
+        <div class="live-status">
+          <span class="live-dot"></span>
+          <span id="rate-status" style="font-size: 13px; color: var(--p-mid); font-weight: 700;">Loading rates...</span>
+          <button onclick="fetchRates()" id="refresh-btn" class="refresh-btn" title="Refresh rates">
+            <i data-lucide="refresh-cw" style="width:16px;height:16px;"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Convert -->
+      <div class="calc-section">
+        <div class="section-title"><i data-lucide="repeat"></i> Quick Convert</div>
+        <div class="flex-row">
+          <div>
+            <div class="label">Amount</div>
+            <input type="number" id="simple-amount" value="1" min="0" step="any" class="row-input">
+          </div>
+          <div>
+            <div class="label">From</div>
+            <select id="simple-from" class="currency-select"></select>
+          </div>
+          <button onclick="swapSimple()" class="swap-btn-small">
+            <i data-lucide="arrow-left-right" style="width: 18px; height: 18px;"></i>
+          </button>
+          <div>
+            <div class="label">To</div>
+            <select id="simple-to" class="currency-select"></select>
+          </div>
+        </div>
+        <div id="simple-result" class="calc-result">
+          Enter an amount to convert
+        </div>
+      </div>
+
+      <!-- Multi-Currency Sum -->
+      <div class="calc-section">
+        <div class="section-title" style="justify-content: space-between;">
+          <div><i data-lucide="layers"></i> Multi-Currency Sum</div>
+          <button onclick="addRow()" class="add-btn"><i data-lucide="plus" style="width:16px;height:16px;"></i>
+            Add</button>
+        </div>
+        <div id="multi-rows"></div>
+        <div class="flex-row" style="margin-top: 15px;">
+          <div style="flex: 1 1 100%;">
+            <div class="label">Convert all to</div>
+            <select id="multi-target" class="currency-select"></select>
+          </div>
+          <button onclick="calculateMulti()" class="action-btn">Calculate Sum</button>
+        </div>
+        <div id="multi-result" class="calc-result">
+          Add currencies and calculate their sum
+        </div>
+      </div>
+
+      <!-- Popular Rates -->
+      <div class="calc-section">
+        <div class="section-title"><i data-lucide="trending-up"></i> Popular Rates (1 USD)</div>
+        <div id="popular-rates" class="popular-grid">
+          <div style="grid-column: 1 / -1; text-align: center; color: var(--p-mid); font-size: 14px; padding: 20px;">
+            Loading...</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JS FILES -->
+  <script src="../JS/main.js"></script>
+  <script>
+    const API_URL = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json';
+    const FALLBACK_URL = 'https://latest.currency-api.pages.dev/v1/currencies/usd.json';
+
+    let rates = {};
+    const popularList = ['eur', 'gbp', 'inr', 'jpy', 'cny', 'aed', 'cad', 'aud', 'krw', 'brl', 'chf', 'sgd'];
+    const currencyNames = { usd: 'US Dollar', eur: 'Euro', gbp: 'British Pound', inr: 'Indian Rupee', jpy: 'Japanese Yen', cny: 'Chinese Yuan', aed: 'UAE Dirham', cad: 'Canadian Dollar', aud: 'Australian Dollar', krw: 'South Korean Won', brl: 'Brazilian Real', chf: 'Swiss Franc', sgd: 'Singapore Dollar', mxn: 'Mexican Peso', zar: 'South African Rand', sek: 'Swedish Krona', nok: 'Norwegian Krone', dkk: 'Danish Krone', hkd: 'Hong Kong Dollar', thb: 'Thai Baht', myr: 'Malaysian Ringgit', php: 'Philippine Peso', idr: 'Indonesian Rupiah', twd: 'Taiwan Dollar', try: 'Turkish Lira', rub: 'Russian Ruble', pln: 'Polish Zloty', nzd: 'New Zealand Dollar', cop: 'Colombian Peso', egp: 'Egyptian Pound' };
+    const currencyFlags = { usd: '🇺🇸', eur: '🇪🇺', gbp: '🇬🇧', inr: '🇮🇳', jpy: '🇯🇵', cny: '🇨🇳', aed: '🇦🇪', cad: '🇨🇦', aud: '🇦🇺', krw: '🇰🇷', brl: '🇧🇷', chf: '🇨🇭', sgd: '🇸🇬', mxn: '🇲🇽', zar: '🇿🇦', sek: '🇸🇪', nok: '🇳🇴', dkk: '🇩🇰', hkd: '🇭🇰', thb: '🇹🇭', myr: '🇲🇾', php: '🇵🇭', idr: '🇮🇩', twd: '🇹🇼', try: '🇹🇷', rub: '🇷🇺', pln: '🇵🇱', nzd: '🇳🇿', cop: '🇨🇴', egp: '🇪🇬' };
+
+    let multiRowId = 0;
+
+    function populateSelect(sel, selected) {
+      sel.innerHTML = '';
+      const keys = Object.keys(currencyNames).sort((a, b) => currencyNames[a].localeCompare(currencyNames[b]));
+      keys.forEach(code => {
+        const opt = document.createElement('option');
+        opt.value = code;
+        opt.textContent = `${currencyFlags[code] || ''} ${code.toUpperCase()} - ${currencyNames[code]}`;
+        if (code === selected) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
+    function formatNum(n) {
+      if (Math.abs(n) >= 1) return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 6 });
+    }
+
+    function convert(amount, from, to) {
+      if (!rates[from] || !rates[to]) return null;
+      const inUsd = amount / rates[from];
+      return inUsd * rates[to];
+    }
+
+    function updateSimple() {
+      const amount = parseFloat(document.getElementById('simple-amount').value);
+      const from = document.getElementById('simple-from').value;
+      const to = document.getElementById('simple-to').value;
+      const box = document.getElementById('simple-result');
+
+      if (isNaN(amount) || !rates[from]) {
+        box.innerHTML = 'Enter a valid amount';
+        return;
+      }
+
+      const result = convert(amount, from, to);
+      if (result === null) { box.innerHTML = '<span style="color: #d85656;">Rate unavailable</span>'; return; }
+
+      const rate = convert(1, from, to);
+      box.innerHTML = `
+                <div style="color: var(--p-mid); font-size: 13px;">1 ${from.toUpperCase()} = ${formatNum(rate)} ${to.toUpperCase()}</div>
+                <strong>${currencyFlags[to] || ''} ${formatNum(result)} ${to.toUpperCase()}</strong>
+            `;
+    }
+
+    function swapSimple() {
+      const f = document.getElementById('simple-from');
+      const t = document.getElementById('simple-to');
+      const tmp = f.value;
+      f.value = t.value;
+      t.value = tmp;
+      updateSimple();
+    }
+
+    function addRow() {
+      const id = multiRowId++;
+      const container = document.getElementById('multi-rows');
+      const div = document.createElement('div');
+      div.id = `mrow-${id}`;
+      div.className = 'multi-row';
+      div.innerHTML = `
+                <input type="number" value="100" min="0" step="any" class="row-input" placeholder="Amount">
+                <select class="currency-select mrow-select"></select>
+                <button onclick="document.getElementById('mrow-${id}').remove()" class="del-btn" title="Remove">
+                    <i data-lucide="x" style="width:20px;height:20px;"></i>
+                </button>`;
+      container.appendChild(div);
+
+      const defaultCurrencies = ['usd', 'cny', 'jpy', 'aed', 'eur', 'gbp', 'inr', 'krw'];
+      const sel = div.querySelector('.mrow-select');
+      populateSelect(sel, defaultCurrencies[multiRowId % defaultCurrencies.length]);
+      lucide.createIcons();
+    }
+
+    function calculateMulti() {
+      const rows = document.querySelectorAll('#multi-rows > div');
+      const target = document.getElementById('multi-target').value;
+      const box = document.getElementById('multi-result');
+
+      if (rows.length === 0) {
+        box.innerHTML = 'Add at least one currency row';
+        return;
+      }
+
+      let total = 0;
+      let breakdown = [];
+
+      rows.forEach(row => {
+        const amount = parseFloat(row.querySelector('input').value) || 0;
+        const currency = row.querySelector('select').value;
+        const converted = convert(amount, currency, target);
+        if (converted !== null) {
+          total += converted;
+          breakdown.push(`<div style="margin-bottom: 4px;">${currencyFlags[currency] || ''} ${formatNum(amount)} ${currency.toUpperCase()} &rarr; ${formatNum(converted)} ${target.toUpperCase()}</div>`);
+        }
+      });
+
+      box.innerHTML = `
+                <div style="font-size: 13px; margin-bottom: 15px; color: var(--p-mid);">${breakdown.join('')}</div>
+                <strong>${currencyFlags[target] || ''} ${formatNum(total)} ${target.toUpperCase()}</strong>
+            `;
+    }
+
+    function renderPopular() {
+      const container = document.getElementById('popular-rates');
+      if (!rates.usd) { container.innerHTML = '<div style="grid-column: 1 / -1; text-align: center; color: var(--p-mid);">No rates available</div>'; return; }
+
+      container.innerHTML = popularList.map(code => {
+        const rate = rates[code];
+        if (!rate) return '';
+        return `
+                <div class="pop-card">
+                    <div class="pop-flag">${currencyFlags[code] || ''}</div>
+                    <div class="pop-rate">${formatNum(rate)}</div>
+                    <div class="pop-code">${code}</div>
+                </div>`;
+      }).join('');
+    }
+
+    async function fetchRates() {
+      const status = document.getElementById('rate-status');
+      const btn = document.getElementById('refresh-btn');
+      status.textContent = 'Updating rates...';
+
+      // Add spinning class if we have one or just rotate
+      btn.style.transform = btn.style.transform === 'rotate(180deg)' ? 'rotate(0deg)' : 'rotate(180deg)';
+
+      try {
+        let res = await fetch(API_URL);
+        if (!res.ok) res = await fetch(FALLBACK_URL);
+        const data = await res.json();
+        rates = data.usd || {};
+        rates.usd = 1;
+        status.textContent = `Live rates`;
+
+        populateSelect(document.getElementById('simple-from'), 'usd');
+        populateSelect(document.getElementById('simple-to'), 'inr');
+        populateSelect(document.getElementById('multi-target'), 'inr');
+
+        // Re-populate existing multi-row selects
+        document.querySelectorAll('.mrow-select').forEach(sel => {
+          const cur = sel.value;
+          populateSelect(sel, cur);
+        });
+
+        updateSimple();
+        renderPopular();
+
+        if (document.querySelectorAll('#multi-rows > div').length === 0) {
+          addRow(); addRow(); addRow();
+        }
+      } catch (e) {
+        status.textContent = 'Failed to load rates';
+        console.error('Rate fetch error:', e);
+      }
+    }
+
+    // Event listeners
+    document.getElementById('simple-amount').addEventListener('input', updateSimple);
+    document.getElementById('simple-from').addEventListener('change', updateSimple);
+    document.getElementById('simple-to').addEventListener('change', updateSimple);
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchRates();
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+
+</html>

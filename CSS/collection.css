@@ -1,0 +1,1272 @@
+/* ================= COLLECTION PAGE STYLES ================= */
+
+#collection {
+  padding: 60px 20px 100px;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+  z-index: 1; /* Ensures content stays above the animated background */
+}
+
+/* ================= ANIMATED BACKGROUND GOLDEN LINES ================= */
+.bg-animated-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  pointer-events: none; /* Ensure no interaction blockages */
+  overflow: hidden;
+  z-index: 0;
+}
+
+.bg-line-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.bg-wave {
+  will-change: transform;
+}
+
+/* Horizontal flowing — different speeds per wave */
+.bg-wave-1 { animation: waveFlowHorizontal 32s linear infinite; }
+.bg-wave-2 { animation: waveFlowHorizontal 45s linear infinite reverse; }
+.bg-wave-3 { animation: waveFlowHorizontal 60s linear infinite; }
+.bg-wave-4 { animation: waveFlowHorizontal 40s linear infinite reverse; }
+.bg-wave-5 { animation: waveFlowHorizontal 55s linear infinite; }
+.bg-wave-6 { animation: waveFlowHorizontal 75s linear infinite reverse; }
+
+/* Vertical oscillation — different rhythm per group */
+.bg-group-1 { animation: waveFlowVertical1 12s ease-in-out infinite; }
+.bg-group-2 { animation: waveFlowVertical2 17s ease-in-out infinite; }
+.bg-group-3 { animation: waveFlowVertical3 21s ease-in-out infinite; }
+.bg-group-4 { animation: waveFlowVertical4 15s ease-in-out infinite; }
+.bg-group-5 { animation: waveFlowVertical5 19s ease-in-out infinite; }
+.bg-group-6 { animation: waveFlowVertical6 25s ease-in-out infinite; }
+
+@keyframes waveFlowHorizontal {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-900px); }
+}
+
+@keyframes waveFlowVertical1 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(28px); }
+}
+
+@keyframes waveFlowVertical2 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-40px); }
+}
+
+@keyframes waveFlowVertical3 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(22px); }
+}
+
+@keyframes waveFlowVertical4 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-32px); }
+}
+
+@keyframes waveFlowVertical5 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(18px); }
+}
+
+@keyframes waveFlowVertical6 {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-24px); }
+}
+
+.header-text {
+  text-align: center;
+  margin-bottom: 30px
+}
+
+.header-text h2 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-h2);
+  margin-bottom: 12px;
+}
+
+.header-text p {
+  color: var(--text-light);
+  opacity: 0.85;
+}
+
+/* ================= COLLECTION TOOLBAR ================= */
+.collection-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 10px 24px; /* Reduced vertical padding for a compact modern look */
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  gap: 16px;
+  position: sticky;
+  top: 90px;
+  z-index: 100;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ================= CATEGORY NAVIGATION ================= */
+.category-nav {
+  display: flex;
+  gap: 4px; /* Compact spacing */
+  align-items: center;
+  justify-content: center;
+  flex: 1; /* Center alignment */
+}
+
+.category-tab {
+  background: transparent;
+  border: none;
+  color: var(--p-dark);
+  font-family: var(--ff-sans);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 6px 14px; /* Compact padding for visual organization */
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  opacity: 0.75;
+}
+
+.category-tab:hover {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.category-tab::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; /* Placed exactly below the button text */
+  left: 14px;
+  right: 14px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 99px;
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.category-tab.active {
+  color: var(--p-dark);
+  font-weight: 800;
+  opacity: 1;
+}
+
+.category-tab.active::after {
+  transform: scaleX(1);
+}
+
+@media (max-width: 1100px) {
+  .category-tab {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  .category-nav {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 950px) {
+  .category-nav {
+    display: none;
+  }
+}
+
+.results-count {
+  color: var(--p-dark); /* Changed from var(--text-light) to var(--p-dark) for visibility on white background */
+  font-weight: 700;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto; /* Set to auto to ensure category nav remains centered and balanced */
+  justify-content: flex-end;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #f1f8f5;
+  border: 1px solid rgba(86, 197, 150, 0.2); /* Subtle green theme border */
+  border-radius: 999px;
+  padding: 6px 14px; /* Reduced padding for cleaner compact height */
+  width: 240px; /* Steady visible size on desktop */
+  transition: all 0.3s ease;
+}
+
+.search-box:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(86, 197, 150, 0.25);
+  background: #ffffff;
+}
+
+.search-box i {
+  color: var(--p-mid);
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: var(--p-dark);
+}
+
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px; /* Reduced padding to match active category height */
+  background: var(--gradient);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px; /* Slightly smaller font to keep visual balance */
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.filter-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.section {
+  margin-bottom: 48px
+}
+
+.section h3 {
+  font-family: var(--ff-serif);
+  font-size: 26px;
+  color: var(--text-light);
+  margin-bottom: 18px;
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+/* ================= COIN CARD — PREMIUM COLLECTOR DESIGN ================= */
+:root {
+  --card-dark: #090a0b;
+  --card-dark-mid: #15171a;
+  --gold-main: #d4af37;
+  --gold-light: #f2d57a;
+  --gold-dim: rgba(212,175,55,0.25);
+}
+
+/* ── Grid layout ── */
+.coins-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* ── Base card shell ── */
+.card {
+  background: #090a0b; /* Solid base prevents body teal bleed-through */
+  background-image: radial-gradient(circle at 50% 30%, #15171a 0%, #08090a 80%);
+  border: 1.5px solid var(--gold-main);
+  border-radius: 14px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6),
+    inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Inner hairline gold frame */
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 9px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Subtle gold shimmer sweep on hover */
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg,
+    transparent 40%,
+    rgba(212,175,55,0.06) 50%,
+    transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 2;
+  border-radius: 14px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold-light);
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.8),
+    inset 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+/* ── Ornamental corner flourishes ── */
+.card-corner {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.card-corner--tl { top: 6px; left: 6px; }
+.card-corner--tr { top: 6px; right: 6px; }
+.card-corner--bl { bottom: 6px; left: 6px; }
+.card-corner--br { bottom: 6px; right: 6px; }
+
+.corner-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ── Crown Section ── */
+.card-crown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 22px;
+  position: relative;
+  z-index: 4;
+}
+
+.crown-line {
+  height: 1px;
+  width: 50px;
+  background: linear-gradient(90deg, transparent, var(--gold-main));
+  position: relative;
+}
+
+.crown-line-left::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  background: var(--gold-main);
+  transform: rotate(45deg);
+}
+
+.crown-line-right {
+  background: linear-gradient(90deg, var(--gold-main), transparent);
+}
+
+.crown-line-right::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  background: var(--gold-main);
+  transform: rotate(45deg);
+}
+
+.card-crown {
+  color: var(--gold-light);
+  font-size: 13px;
+  filter: drop-shadow(0 0 4px rgba(242, 213, 122, 0.4));
+}
+
+/* ── Title bar at top ── */
+.card-header {
+  padding: 8px 18px 4px;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+}
+
+.card-header .title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--gold-light);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(242, 213, 122, 0.2);
+}
+
+/* ── Ornate divider below title ── */
+.card-divider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 0 32px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 4;
+}
+
+.divider-line {
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, var(--gold-main));
+}
+
+.divider-line-right {
+  background: linear-gradient(90deg, var(--gold-main), transparent);
+}
+
+.divider-ornament {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* ── Coin images stage ── */
+.card-main {
+  padding: 0 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  z-index: 4;
+}
+
+.sides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.side-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.sides img {
+  width: 100%;
+  max-width: 100px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.75));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+}
+
+.card:hover .sides img {
+  transform: scale(1.06);
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.95)) drop-shadow(0 0 12px rgba(242, 213, 122, 0.25));
+}
+
+/* OBVERSE / REVERSE labels */
+.side-label {
+  font-family: var(--ff-sans);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(212, 175, 55, 0.55);
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  padding-top: 4px;
+  width: 100%;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.card:hover .side-label {
+  color: var(--gold-light);
+}
+
+/* ── Thin divider between images ── */
+.sides-divider {
+  width: 1px;
+  height: 70px;
+  background: linear-gradient(to bottom, transparent, rgba(212, 175, 55, 0.2), transparent);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+/* ── Card footer (empty) ── */
+.card-footer {
+  display: none;
+}
+
+/* ── Note card overrides ── */
+.note-card .card-main {
+  padding: 0 16px 20px;
+}
+
+.note-sides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 14px;
+}
+
+.note-sides img {
+  width: 95%;
+  max-width: 320px;
+  aspect-ratio: 16 / 7.5;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease;
+}
+
+.note-card:hover .note-sides img {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+  border-color: var(--gold-light);
+}
+
+/* ── Section headings ── */
+.section h3 {
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: var(--text-light);
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+}
+
+/* ================= ACTIVE FILTER CHIPS ================= */
+.active-filters {
+  display: none;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: white;
+  border: 1.5px solid var(--accent);
+  border-radius: 999px;
+  padding: 5px 10px 5px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--p-dark);
+  cursor: default;
+  box-shadow: 0 2px 6px rgba(86, 197, 150, 0.12);
+  transition: all 0.2s ease;
+}
+
+.filter-chip:hover {
+  background: #eaf6f1;
+}
+
+.chip-label {
+  font-weight: 800;
+  opacity: 0.6;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chip-remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--p-mid);
+  padding: 0 2px;
+  line-height: 1;
+  border-radius: 50%;
+  transition: all 0.15s ease;
+  width: auto;
+  margin-top: 0;
+  box-shadow: none;
+}
+
+.chip-remove:hover {
+  color: #c0392b;
+  background: #fee;
+  transform: none;
+}
+
+.chip-clear-all {
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--p-dark);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  width: auto;
+  margin-top: 0;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  opacity: 0.65;
+}
+
+.chip-clear-all:hover {
+  opacity: 1;
+  background: #fff;
+  transform: none;
+}
+
+/* ================= FILTER BUTTON BADGE ================= */
+.filter-badge {
+  background: white;
+  color: var(--p-dark);
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 900;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  margin-left: -2px;
+}
+
+/* ================= SIDEBAR COUNTER BADGE ================= */
+.filter-count {
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 800;
+  width: 18px;
+  height: 18px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+/* ================= ACTIVE FILTER GROUP HIGHLIGHT ================= */
+.dropdown.has-active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(86, 197, 150, 0.15), 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.dropdown.has-active .dropdown-header {
+  color: var(--p-mid);
+}
+
+/* ================= FILTER OVERLAY ================= */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .35);
+  display: none;
+  z-index: 2000;
+}
+
+.overlay.show {
+  display: block
+}
+
+/* ================= FILTER PANEL ================= */
+.panel {
+  position: fixed;
+  top: 65px;
+  right: -360px;
+  width: 340px;
+  height: calc(100vh - 84px);
+  background: linear-gradient(180deg, #bfffd5 0%, #f3fbf7 100%);
+  padding: 20px;
+  transition: right .3s ease;
+  overflow-y: auto;
+  border-left: 1px solid var(--border);
+}
+
+.overlay.show .panel {
+  right: 0
+}
+
+.panel h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--p-dark);
+  margin-bottom: 18px;
+}
+
+.filter-group {
+  margin-bottom: 22px
+}
+
+.dropdown {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 12px
+}
+
+.dropdown-header {
+  font-weight: 700;
+  color: var(--p-dark);
+  padding: 10px 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 10px 14px
+}
+
+.dropdown.open {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.dropdown.open .dropdown-content {
+  display: block
+}
+
+.dropdown-content label {
+  padding: 6px 0;
+}
+
+.dropdown label {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 6px
+}
+
+.dropdown.disabled {
+  opacity: 0.45;
+  filter: grayscale(0.4);
+  pointer-events: none
+}
+
+.dropdown input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px
+}
+
+.actions button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer
+}
+
+.actions .apply {
+  background: var(--gradient);
+  color: white;
+}
+
+.actions .clear {
+  background: #eaf6f1;
+  color: var(--p-dark);
+}
+
+/* ================= MOBILE (≤ 600px) ================= */
+@media (max-width: 600px) {
+
+  /* ================= GRID & CARDS ================= */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sides {
+    gap: 8px;
+  }
+
+  .sides img {
+    width: 42%;
+    max-width: 72px;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  /* ================= HEADER ================= */
+  .header {
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  /* ================= LOGO ================= */
+  .logo {
+    flex-shrink: 0;
+    gap: 6px;
+  }
+
+  .logo-img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .logo-text {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  /* ================= UTILITY (Removed as moved to page) ================= */
+
+  /* ================= SEARCH (ICON → EXPAND) ================= */
+  .search {
+    padding: 10px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  .search input {
+    display: none;
+  }
+
+  .search i {
+    font-size: 16px;
+    color: var(--p-dark);
+  }
+
+  /* Expanded state (JS adds .active) */
+  .search.active {
+    padding: 10px 12px;
+  }
+
+  .search.active input {
+    display: block;
+    width: 120px;
+    font-size: 14px;
+  }
+
+  /* ================= FILTER BUTTON ================= */
+  .filter-btn {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  /* ================= COLLECTION TOOLBAR MOBILE ================= */
+  .collection-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    position: relative;
+    top: 0;
+    gap: 12px;
+  }
+
+  .toolbar-right {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .search-box {
+    max-width: none;
+    width: auto;
+    flex: 1;
+  }
+
+  .results-count {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* ================= MENU TOGGLE ================= */
+  .menu-toggle {
+    margin-left: 6px;
+  }
+
+  /* ================= FILTER PANEL (MOBILE SHEET) ================= */
+  .panel {
+    width: 100%;
+    right: -100%;
+    border-radius: 16px 16px 0 0;
+
+  }
+
+  .overlay.show .panel {
+    right: 0;
+  }
+
+  /* Coins → 2-column grid on mobile */
+  .coins-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .card {
+    border-radius: 14px;
+    border-width: 1.5px;
+  }
+
+  /* Hide corner brackets on very small cards — too noisy */
+  .card-corner {
+    display: none;
+  }
+
+  .card::before {
+    inset: 4px;
+  }
+
+  .card-crown-container {
+    margin-top: 12px;
+    gap: 6px;
+  }
+
+  .crown-line {
+    width: 25px;
+  }
+
+  .card-crown {
+    font-size: 9px;
+  }
+
+  .card-header {
+    padding: 6px 12px 4px;
+  }
+
+  .card-header .title {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+  }
+
+  .card-divider-container {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    padding: 0 16px;
+    gap: 6px;
+  }
+
+  .divider-ornament {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+  }
+
+  .card-main {
+    padding: 0 10px 12px;
+  }
+
+  .sides {
+    gap: 8px;
+  }
+
+  .sides img {
+    max-width: 64px;
+  }
+
+  .sides-divider {
+    height: 50px;
+  }
+
+  .side-label {
+    font-size: 6px;
+    letter-spacing: 0.12em;
+  }
+
+  /* Notes → 1 per row */
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .note-card {
+    max-width: 100%;
+  }
+}
+
+/* ===== MODAL ===== */
+
+.item-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 9999;
+}
+
+.item-modal.active {
+  display: block;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, .35);
+  backdrop-filter: blur(5px);
+}
+
+.modal-content {
+  position: relative;
+  max-width: 950px;
+  margin: 40px auto;
+  z-index: 2;
+  animation: modalIn .25s ease;
+}
+
+@keyframes modalIn {
+  from {
+    transform: translateY(40px);
+    opacity: 0
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+
+
+
+/* ================= MODAL INNER STYLING ================= */
+.modal-content {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  width: 90%;
+}
+
+.modal-content .card-header {
+  position: relative;
+  padding: 30px 20px 15px;
+  text-align: center;
+  background: var(--p-dark);
+  color: white;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.close-btn::before {
+  content: "×";
+}
+
+.close-btn:hover {
+  opacity: 1;
+}
+
+.coin-title,
+.note-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.card-body {
+  padding: 30px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.coin-images,
+.note-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.coin-image-container,
+.note-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--p-mid);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.coin-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.note-image {
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.specifications {
+  background: #f8fbf9;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.spec-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--p-dark);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 15px;
+}
+
+.spec-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--p-mid);
+  text-transform: uppercase;
+}
+
+.spec-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 30px 0;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description-title {
+  font-size: 16px;
+  color: var(--p-dark);
+  margin-bottom: 8px;
+}
+
+.description-section p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Modal Responsive */
+@media (min-width: 768px) {
+  .main-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .coin-images,
+  .note-images {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .specifications {
+    flex: 1;
+  }
+}

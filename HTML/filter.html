@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Coin Hub – Unified Filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="../CSS/filter.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h2>NK Coin Hub</h2>
+
+
+        <div class="utility-group">
+
+            <!-- SEARCH -->
+            <div class="search-container" id="searchBox">
+                <input type="search" id="searchInput" class="search-input" placeholder="Search..." autocomplete="off" />
+                <button class="search-icon-btn" id="searchToggle" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <!-- FILTER -->
+            <button class="filter-action" onclick="openFilter()" aria-label="Sort / Filter">
+                <i class="fa-solid fa-up-down"></i>
+                <span class="filter-text">Filter</span>
+            </button>
+
+        </div>
+
+
+    </header>
+
+    <div class="list" id="cardList"></div>
+
+    <!-- FILTER -->
+    <div class="overlay" id="overlay">
+        <div class="filter-panel">
+            <h3 style="text-align:center;margin-top:0;">Filter</h3>
+
+            <div class="section">
+                <div class="section-title">Category</div>
+                <div class="chips" data-filter="category">
+                    <div class="chip">Indian Coins</div>
+                    <div class="chip">Indian Notes</div>
+                    <div class="chip">Foreign Coins</div>
+                    <div class="chip">Foreign Notes</div>
+                    <div class="chip">Error Coins / Notes</div>
+                </div>
+            </div>
+
+            <div id="indianCoinFilters" class="hidden">
+                <div class="section">
+                    <div class="section-title">Coin Type</div>
+                    <div class="chips" data-filter="coinType">
+                        <div class="chip">Regular</div>
+                        <div class="chip">Commemorative</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Series</div>
+                    <div class="chips" data-filter="series">
+                        <div class="chip">Pre-Decimal</div>
+                        <div class="chip">Decimal</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <button class="apply" onclick="applyFilter()">Apply</button>
+                <button class="reset" onclick="resetFilter()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/filter.js"></script>
+</body>
+
+</html>

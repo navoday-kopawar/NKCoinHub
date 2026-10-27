@@ -1,0 +1,207 @@
+
+
+/* ================= ROOT & BASE ================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+:root {
+  --p-dark: #205072;
+  --p-mid: #329D9C;
+  --accent: #56C596;
+  --accent-light: #7BE495;
+  --bg-light: #CFF4D2;
+  --text-light: #e6fbf6;
+  --card-light: #ffffff;
+  --border: rgba(4, 20, 22, 0.06);
+  --shadow: 0 10px 40px rgba(3, 22, 24, 0.08);
+  --gradient: linear-gradient(135deg, var(--p-dark) 0%, var(--p-mid) 100%);
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+/* ================= ABOUT SECTION ================= */
+
+.about-section {
+  padding: 80px 6% 120px;
+}
+
+/* ---------- ABOUT MAIN ---------- */
+
+.about-main {
+  max-width: 1100px;
+  margin: 0 auto 36px;
+}
+
+.about-main h2 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-h1);
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--text-light);
+  letter-spacing: -0.04em;
+}
+
+.about-main p {
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+/* ---------- COLLECTORS GRID ---------- */
+
+.collectors {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+/* ---------- COLLECTOR CARD ---------- */
+
+.collector-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  padding: 20px;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- PHOTO ---------- */
+
+.collector-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collector-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- CONTENT ---------- */
+
+.collector-body {
+  flex: 1;
+}
+
+.collector-body h4 {
+  font-family: var(--ff-serif);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-light);
+}
+
+.collector-body p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  opacity: 0.95;
+}
+
+/* ---------- SOCIAL LINKS ---------- */
+
+.collector-social {
+  display: flex;
+  gap: 12px;
+}
+
+.collector-social a {
+  width: 40px;
+  height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.collector-social a:hover {
+  background: var(--accent);
+  color: var(--p-dark);
+  transform: translateY(-3px);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+  .about-section {
+    margin: 40px 20px;
+    padding: 48px 32px;
+    text-align: center;
+  }
+
+  .about-main h2 {
+    font-size: 32px;
+  }
+
+  .collectors {
+    grid-template-columns: 1fr;
+  }
+
+  .collector-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .collector-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .collector-social {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-section {
+    margin: 24px 12px;
+    padding: 32px 20px;
+    border-radius: 18px;
+  }
+
+  .about-main h2 {
+    font-size: 28px;
+  }
+
+  .about-main p {
+    font-size: 16px;
+  }
+
+  .collector-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
